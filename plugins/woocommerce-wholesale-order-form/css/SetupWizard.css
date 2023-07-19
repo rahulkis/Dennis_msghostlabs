@@ -1,0 +1,32 @@
+.setup-wizard-notice-wrapper{
+  padding: 20px!important;
+}
+.setup-wizard-notice-wrapper p{
+  font-size: 16px;
+}
+
+.setup-wizard-notice-wrapper a.button-primary
+{
+  padding: 4px 14px;
+  font-size: 16px;
+  font-family: "Lato", 'Lato', Helvetica, Arial, Sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background-color: #f7941d;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #A85E06;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+.setup-wizard-notice-wrapper a.button-primary:hover,
+.setup-wizard-notice-wrapper a.button-primary:focus{
+  background-color: #f7941d;
+  box-shadow: none;
+  border-color: #A85E06;
+}
+.setup-wizard-notice-wrapper a.button-primary:active{
+  top: 1px;
+  position: relative;
+}

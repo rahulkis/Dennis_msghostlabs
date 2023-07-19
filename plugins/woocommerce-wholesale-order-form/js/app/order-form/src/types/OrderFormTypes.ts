@@ -1,0 +1,31 @@
+export enum EOrderFormActionTypes {
+  FETCH_PRODUCTS = "FETCH_PRODUCTS",
+  FETCH_VARIATIONS = "FETCH_VARIATIONS",
+  FETCH_CATEGORIES = "FETCH_CATEGORIES",
+  SET_APP_STATE = "SET_APP_STATE",
+  SET_CATEGORIES = "SET_CATEGORIES",
+  LOAD_MORE_VARIATIONS = "LOAD_MORE_VARIATIONS",
+  LAZY_LOAD_PRODUCTS = "LAZY_LOAD_PRODUCTS",
+  LAZY_LOAD_VARIATIONS = "LAZY_LOAD_VARIATIONS",
+  SET_SHOW_MODAL = "SET_SHOW_MODAL",
+  GET_VARIATION_WHOLESALE_DATA = "GET_VARIATION_WHOLESALE_DATA",
+  SET_VARIATION_WHOLESALE_DATA = "SET_VARIATION_WHOLESALE_DATA",
+  GET_VARIATIONS_WHOLESALE_DATA = "GET_VARIATIONS_WHOLESALE_DATA",
+  SET_VARIATIONS_WHOLESALE_DATA = "SET_VARIATIONS_WHOLESALE_DATA"
+}
+
+export interface IOrderFormAction {
+  categories: any[];
+  cartURL: string;
+  showModal: boolean;
+  modalProps: {
+    orderFormId: number;
+    onClickAction: string;
+    product: object[];
+  };
+  attributes: {
+    show_search: string;
+    products: any[];
+    categories: any[];
+  };
+}

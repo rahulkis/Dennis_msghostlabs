@@ -1,0 +1,27 @@
+{
+  "name": "cannabuilder",
+  "version": "1.0.0",
+  "description": "An opinionated starter theme based on underscores with Gulp build script included",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "bootstrap": "4.6.0",
+    "browser-sync": "^2.27.5",
+    "cssnano": "^5.0.7",
+    "del": "^6.0.0",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^4.0.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "node-notifier": "^10.0.0",
+    "postcss": "^8.3.6",
+    "sass": "1.32.13",
+    "stylelint": "^13.13.1",
+    "stylelint-config-sass-guidelines": "^8.0.0"
+  }
+}

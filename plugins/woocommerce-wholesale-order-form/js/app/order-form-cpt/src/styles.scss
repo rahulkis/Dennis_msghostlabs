@@ -1,0 +1,127 @@
+body{
+    background: #fff;
+
+    .ant-btn-link:focus, .ant-btn-link:hover{
+        border-color: none;
+    }
+    a:focus{
+        box-shadow: none;
+    }
+
+    ul.location-list{
+        li{
+            margin: 0px;
+        }
+    }
+}
+.ant-select-show-search.ant-select:not(.ant-select-customize-input) .ant-select-selector input{
+    border: none!important;
+    box-shadow: none!important;
+}
+.ant-popover{
+    z-index: 9999;
+}
+.ant-notification{
+    top: 40px!important;
+}
+.ant-modal-mask{
+    z-index: 9999;
+}
+.ant-modal-wrap{
+    z-index: 9999;
+}
+#wwof-order-forms-admin{
+    .order-form-cpt{
+        padding: 0px;
+        padding-top: 60px;
+
+        &.edit{
+            padding-right: 0px!important;
+        }
+        .ant-table-wrapper.order-forms{
+            table,.ant-tag,.ant-pagination{
+                font-size: 16px;
+            }
+            .ant-tag{
+                padding: 4px 6px;
+            }
+        }
+        
+    }
+}
+.ant-page-header{
+    padding: 0px;
+}
+.ant-row.ant-form-item{
+    margin-bottom: 0px;
+}
+div.order-form-cpt{
+    height: 100vh;
+}
+#wpbody-content{
+    padding-bottom: 0px !important;
+}
+.ant-page-header{
+    .ant-page-header-heading-sub-title{
+        margin: 0px; 
+     }
+}
+
+.ant-drawer-body{
+    padding: 12px;
+}
+.ant-collapse-content {
+    & > .ant-collapse-content-box{
+        padding: 10px;
+        & > div{
+            padding: 5px 0px;
+        }
+    }
+}
+
+.order-form-field.shortcode{
+    .ant-input-group-addon{
+        padding: 0px;
+    }
+    .anticon-copy{
+        padding: 10px;
+    }
+    .ant-input-lg{
+        padding: 3px 8px!important;
+    }
+}
+
+// RTL Support, Adds spacing
+.rtl{
+    .ant-btn>.anticon+span, .ant-btn>span+.anticon{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    ul.ant-pagination{
+        li{
+            margin: 0px 4px;
+        }
+    }
+    
+    .page-header{
+        .ant-page-header-heading-title{
+            margin: 0px 12px;
+        }
+    }
+    .tab-icon{
+        margin: 0px 10px;
+    }
+    .right-content{
+        .affix-sidebar{
+            right: 0px;
+        }
+        .ant-tabs-content{
+            border-left: 0px;
+            border-right: 1px solid #d9d9d9;
+        }
+    }
+    // .order-form-field.shortcode{
+    //     direction: ltr;
+    // }
+}

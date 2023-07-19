@@ -1,0 +1,60 @@
+// General nyp styles.
+.product, .wcopc .product-item {
+
+	.nyp-disabled {
+		opacity: 0.2;
+	}
+
+	.single_variation_wrap {
+
+		.nyp { display: none; }
+
+		.suggested-text {
+			margin-bottom: 1.5em;
+			display: inline-block;
+		}
+
+	}
+
+	.nyp {
+
+		margin-bottom: 1.5em;
+
+		label {
+			font-weight: bold;
+			display: block;
+		}
+
+		.nyp-input {
+			display: inline-block;
+			margin-bottom: 0;
+			text-align: center;
+			font-weight: bold;
+			min-width: 10em;
+		}
+
+		.minimum-price {
+			margin: 0;
+			color: inherit;
+			font-size: .75em;
+			opacity: .7;
+		}
+
+		.woocommerce-nyp-message {
+			margin: 1em 0 !important;
+		}
+
+		&:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+	}
+
+}
+
+// Elementor fix for flex styles.
+.woocommerce div.nyp-product.elementor form.cart {
+	display: block !important;
+}

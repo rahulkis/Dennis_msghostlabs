@@ -1,0 +1,403 @@
+=== WooCommerce Name Your Price ===
+
+2021.02.10 - version 3.2.1
+* Update: Change updated against plugin headers.
+
+2021.02.09 - version 3.2.0
+* Update: Tested against WooCommerce 5.0.
+* Fix: Incorrect quantity on product page when editing a price in cart.
+* Tweak: Serve minified stylesheets when SCRIPT_DEBUG constant is false.
+* Tweak: Remove use of deprecated jQuery select(), focus(), and change() shortcuts.
+* Tweak: Use fallback selector when theme's don't use .single_add_to_cart_button class on add to cart buttons on single product page.
+
+2020.11.19 - version 3.1.7
+* Update: Tested against WooCommerce 4.7.
+* Tweak: Remove use of jQuery ready().
+* Tweak: Change click handler to use a class property, for more extensibility.
+
+2020.09.19 - version 3.1.6
+* Fix: Adjust front-end validation script to handle sold-indidivudally checkboxes in grouped products.
+
+2020.09.11- version 3.1.5
+* Update: Tested against WooCommerce 4.5.
+* Tweak: Add style rule for Elementor forms
+* Tweak: Add version to system status
+
+2020.08.17 - version 3.1.4
+* Update: Tested against WP 5.5.
+* Fix: Remove HTML from price input title attribute in price-input.php template.
+* Tweak: Inherit error notice icons (or lack thereof) from theme styles.
+
+2020.08.03 - version 3.1.3
+* Fix: "Warning: Division by zero" in cart for variable billing period subscriptions.
+* Dev: Add wc_nyp_replace_price_template filter to prevent price template move in case of duplicate prices
+
+2020.07.09 - version 3.1.2
+* Update: Tested against WC 4.3
+* Fix: Prevent editing cart price from adding a new item to cart.
+
+2020.06.18 - version 3.1.1
+* Fix: Validate against values from $cart_item_data if present. Fixes validation failure when trying to renew subscription.
+
+2020.06.08 - version 3.1.0
+* Update: Tested against WC 4.2.
+* New: Support for CoCart for headless stores, for more information visit: https://cocart.xyz/
+* Fix: Make subscription period string translatable.
+* Fix: Prevent duplicate Suggested Price strings if theme has customized price template's location.
+
+2020.05.22 - version 3.0.6
+* Fix: Typo in subscription switching error message.
+* Fix: Incorrect subscription switching errors on simple subscriptions with variation switching disabled.
+
+2020.05.16 - version 3.0.5
+* Fix: Default to "Choose price" for add to cart text in loop if setting is left empty.
+* Fix: Javascript error on variations since helpers can return false, need to check variation price aren't false.
+* Fix: Undefined variable in variable product sync/save routine.
+* Tweak: Reduce subscription terms to "Due for X $period" when billing interval and billing length are the same.
+
+2020.05.07 - version 3.0.4
+* Fix: Urgent issue of variation NYP checkbox not saving.
+* Fix: Only run sync on variable products if there are NYP variations.
+
+2020.05.06 - version 3.0.3
+* Fix: Skip validation if the NYP div is not visible... in the case of variable products with non-NYP variations selected.
+
+2020.05.06 - version 3.0.2
+* Fix: Use wp_kses_post() on label text to prevent HTML from displaying as text for subscriptions.
+
+2020.05.05 - version 3.0.1
+* Update: Tested against WC 4.1
+* Fix: Changelog formatting causing continual prompts to update the plugin.
+* Fix: Script error with Composite products when selecting a non-NYP product.
+
+2020.05.04 - version 3.0.0
+* Read more about this update here: https://docs.woocommerce.com/document/name-your-price/whats-new-in-3-0/
+* IMPORTANT: Introduce Placeholders for Minimum Text field and Suggested Text field. The Database is lightly updated to account for this. For mono-lingual sites this should be seamless. For multi-lingual sites, you will need to revisit your translations of the minimum and suggested text strings and add the %PRICE% placeholder where the price is expected to appear.
+* IMPORTANT: woocommerce_get_price_input filter has been removed for security reasons. Attributes for the price input can be modified via the wc_nyp_price_input_attributes filter or by overriding the price-input.php template
+* New: Total rewrite of validation scripts! Finally fixing the UX problem of needing to click on empty space before you can click on the add to cart button, when the initial input value is lower than the minimum. Still prevents adding to cart if any Name Your Price product is not valid.
+* New: The initial input now defaults to null for better accessibility.
+* New: Prevent form submission when enter key is pressed in price input.
+* New: Add support for switching amounts on Name Your Price subscriptions.
+* New: Compatibility with WooCommerce Gateway PayPal Express Checkout Smart Buttons v1.6.21
+* Update: Full accessibility audit, inputs and errors are now properly read by screen-readers. 
+* Update: Light UX changes, including changing positions of minimum prompts and position of error messages.
+* Update: Unifiy UX across all product types.
+* Update: Move suggested text from default WooCommerce single product page hook, to display closer to input.
+* Update: Unified filter and action hooks to use the `wc_nyp_` prefix. All previous filters will still work, just with a warning.
+* Update: Minimum Price and Suggested Price display if value is explicitly set to 0.
+* Update: If no custom add to cart text set in options, use the WooCommerce default.
+* Update: Add wc_nyp_single_update_cart_text for modifying the 'Update product' text when editing the price of a product already in the cart.
+* Fix: Better admin support for extending NYP support to custom types via `wc_nyp_simple_supported_types` filter.
+* Fix: Add One Page Checkout classes to stylesheet to ensure style apply to One Page Checkout shortcodes.
+* Fix: Do not validate a grouped Name Your Price product if it is not being added to the cart.
+
+2020.03.11 - version 2.11.7
+* Fix: Error in cart re-validation.
+
+2020.03.10 - version 2.11.6
+* Update: Tested against WC 4.0
+* New: Re-validate NYP products in cart.
+* New: Use WooCommerce default "Add to cart" text if none set.
+* New: Add wc_nyp_single_update_cart_text filter for changing button text when updating NYP price from cart.
+* Fix: Remove deprecated contextual_help action.
+* Fix: Missing placeholder %s in script localization for maximum price error.
+
+2020.01.06 - version 2.11.5
+* Update: Tested up to WooCommerce WC 3.9.0
+* Fix: Automatically hide Stripe request buttons for variable products with NYP variations.
+
+2019.12.09 - version 2.11.4
+* Fix: Respect Subscriptions "Limit to one of any|active status"
+* Tweak: Hide "Edit" in cart link when resubscribing.
+
+2019.12.05 - version 2.11.3
+* Fix: Missing input label for price input on NYP variations.
+
+2019.12.05 - version 2.11.2
+* Fix: Add woocommerce_show_variation_price filter to fixes compatibility with Bundled NYP variations that are _not_ priced individually
+
+2019.12.02 - version 2.11.1
+* Fix: Correctly update existing product in cart, instead of creating new product.
+* Fix: More precise tax calculations when ordering again.
+
+2019.11.24 - version 2.11.0
+* New: Supports editing price in cart (by redirecting back to original product page)
+* New: wc_nyp_price_input_attributes and wc_nyp_price_input_attributes filters.
+* Fix: Resolve bug with multiple [product_page] shortcodes on same page (esp 1 variable, 1 simple ).
+* Fix: Incorrect price when ordering-again in tax-inclusive mode.
+* Fix: Automatically hide Stripe request buttons for NYP products as they don't support custom prices.
+
+2019.08.06 - version 2.10.0
+* IMPORTANT: WooCommerce 3.1.0 is minimum required version. If you are running a WooCommerce version older than 3.1, you will not see any prompts to update Name Your Price from now on, and will need to install extension updates manually!
+* IMPORTANT: PHP 5.6.20+ is now required.
+* Update: Tested against WC 3.7
+* Tweak: Improve variable product performance by passing $variation object to woocommerce_variation_is_visible callback. 
+
+2019.06.19 - version 2.9.6
+* Fix: Admin Quick-edit save routine.
+* Fix: Updated price-input.php template to always match label "for" to input "id" when using a $prefix for accessibility.
+
+2019.04.12 - version 2.9.5
+* Fix: Remove stray .bak files from build which may cause problems with some hosts.
+
+2019.04.10 - version 2.9.4
+* Update: Tested against WooCommerce 3.0
+* Tweak: Trigger variations scripts from radio inputs, which are used by many swatch plugins.
+
+2018.11.11 - version 2.9.3
+* Fix: [WC3.5] Name Your Price product filters were in the wrong place.
+
+2018.10.17 - version 2.9.2
+* Fix: Repackage to exclude .bak files that are causing errors in WP Engine.
+
+2018.10.15 - version 2.9.1
+* Fix: Launch plugin on plugins_loaded to reliable load for sub-site in Multisite networks
+* Fix: Re-enable add to cart button when switching to non-NYp variations.
+* Fix: Add new maximum and hide minimum price meta keys to WPML config file.
+
+2018.10.01 - version 2.9.0
+* WARNING: If you were moving the price input via hooks, you may want to test before upgrading.
+* New: Move price input to woocommerce_single_variation hook for variable products. Improves compatibility with Product Addons and some themes.
+* New: Add support for maximum prices and for obscuring minimum prices on variations.
+* Fix: Use initial price as initial subtotal for variation with Product Addons.
+* Fix: Issue with markup in price input for user filtering woocommerce_price_format. Ignore currency symbols/string when formatting price in input.
+
+2018.07.01 - version 2.8.3
+* New: Add wc_nyp_subscription_period_input and wc_nyp_subscription_strings filters
+
+2018.05.30 - version 2.8.2
+* Fix: Spelling error in maximum price error message.
+* Fix: Use initial price for NYP variations + addons for calculating subtotal
+
+2018.04.30 - version 2.8.1
+* Tweak: Better error message for maximum price error.
+
+2018.04.16 - version 2.8.0
+* New: Add option to hide minimum price.
+* New: Add maximum acceptable price.
+
+2018.02.12 - version 2.7.1
+* Fix: Making NYP subscriptions purchasable again. Props @denzel100
+
+2018.02.06 - version 2.7.0
+* IMPORTANT: WooCommerce 2.X support dropped.
+* New: Add support for NYP in grouped products.
+* New: Better support for some themes using WooCommerce core's ajax add to cart script on single product pages.
+
+2017.12.09 - version 2.6.3
+* Fix: Period as thousands separator price incorrectly validated on backend.
+* Fix: Order again price incorrect when quantity > 1
+* Tweak: Use clearfix instead of overflow:hidden on NYP div element.
+* Tweak: Use Sass for compiling CSS.
+
+2017.11.27 - version 2.6.2
+* Fix: Fix update due to plugin version mismatch.
+
+2017.11.22 - version 2.6.1
+* Fix: Resolve warning - Use setter method for sale price.
+* Fix: Fix bulk actions for NYP variations.
+
+2017.08.01 - version 2.6.0
+* New: Add support for WPML
+* New: Add support for new WooCommerce.com updates
+* New: Switch front-end validation to add disabled attribute to add to cart button
+* Fix: PHP notice on WC setup with NYP installed 
+* Fix: Update deprecated Subscriptions method
+
+2017.05.04 - version 2.5.5
+* Fix: Only bulk edit variations that are NYP-enabled
+
+2017.04.26 - version 2.5.4
+* Fix: Fatal error in variation bulk edit
+* Fix: Bug that caused variable subscriptions to not show price string
+
+2017.04.19 - version 2.5.3
+* Fix: Missing settings in WooCommerce 2.6.x
+
+2017.04.14 - version 2.5.2
+* Fix: Add load_textdomain() support for files to be placed in WP_LANG_DIR/wc_name_your_price/wc_name_your_price-LOCALE.mo
+* Fix: Fatal error with Subscriptions and variable billing periods
+* Fix: Compatibility with One Page Checkout product template
+
+2017.04.07 - version 2.5.1
+* Fix: Variable product sync of _has_nyp status. Restores NYP input for variable products with WC3.0.  
+* Fix: Switch variable product price string to "From: $9.99" or a null string if lowest-costing variation is NYP with no minimum.
+* Fix: Handling of thousands separator. 
+
+2017.04.03 - version 2.5.0
+* Important - WooCommerce 3.0 support added.
+* Important - WooCommerce 2.3 support dropped.
+
+2016.10.17 - version 2.4.2
+* New: JS support multiple NYP inputs
+* Fix: bulk toggle NYP on/off for variations
+
+2016.08.03 - version 2.4.1
+* Fix: Update version number in main plugin file
+
+2016.08.02 - version 2.4.0
+* New: Add support for order again, fixes loss of NYP price on order again, and payment for pending orders
+* New: Add filter for woocommerce_variable_subscription_price_html (will work better when Subscriptions changes how they save variations)
+* Fix: Better price strings for Variable products with NYP variations. Products with no minimum will no longer say From: $0 unless 0 is explicity defined as minimum
+* Fix: bulk variation actions
+* Deprecated: Variable billing periods. Existing products will continue to work, but new instances are disabled. Please switch to variable subscriptions instead. 
+* Fix: support CHF thousands seperator (')
+
+2016.05.03 - version 2.3.5
+* New: add wc_name_your_price_loaded hook for extending NYP
+
+2015.12.30 - version 2.3.4
+* Fix: bug in validation of subscriptions with variable billing period
+* Fix: display of front-end NYP variation price string
+* Feature: prepare appropriate disabling of ajax add to cart for NYP product in WC2.5
+
+2015.08.26 - version 2.3.3
+* Fix: compatibility of NYP Variations with WooCommerce 2.4
+
+2015.08.22 - version 2.3.2
+* Tweak: Switch add to cart $_POST to $_REQUEST globals to support defining price in URL: http://example.com?add-to-cart=99&nyp=25
+
+2015.08.06 - version 2.3.1
+* Fix: Incorrect strings in cart for subscriptions with variable billing period
+
+2015.07.30 - version 2.3.0
+* Fix: Currency formatting in error messages to match currency label position
+* Fix: endless loop with Subs 1.0+
+* Tweak: Price html strings for variable products with NYP variations
+
+2015.07.22 - version 2.2.8
+* Fix: WC2.4 compatibility for variations metaboxes
+* Fix: Subscriptions 2.0 compatibility
+* Tweak: slideUp/slideDown NYP errors instead of fadeIN/fadeOut
+
+2015.06.15 - version 2.2.7
+* Fix: Prevent infinite prices from being used
+
+2015.06.11 - version 2.2.6
+* Tweak: Better compatibility with WooCommerce Quickview
+* Tweak: Admin price html for Variable NYP products
+* New: add woocommerce_nyp_get_initial_price filter
+
+2015.04.24 - version 2.2.5
+* Fix: fatal error from WC_Subscriptions::$text_domain in admin
+
+2015.04.09 - version 2.2.4
+* Fix: accounting.JS bug on variable NYP products with comma decimals
+
+2015.03.28 - version 2.2.3
+* Fix: array to string notice for variable billing subscriptions in admin
+
+2015.03.27 - version 2.2.2
+* Fix: NYP metabox support for account funds
+
+2015.03.27 - version 2.2.1
+* Fix: Fatal error: Class 'WC_Subscriptions_Product' not found 
+
+2015.03.23 - version 2.2.0
+* Fix: Subscriptions compatibility: array to string notice for variable billing subscriptions
+
+2015.02.26 - version 2.1.1
+* Fix: JS formatting- get absolute value of any of negative prices
+
+2015.02.12 - version 2.1.0
+* IMPORTANT: Dropped support for WooCommerce 2.0
+* New: filter price input HTML
+* Fix: don't autoformat a null price. ie: empty value in the case of no suggested or minimum prices
+* Fix: add to cart text for variations now pulled from single_add_to_cart_text()
+
+2014.11.02 - version 2.0.9
+* Fix: remove jquery .focus() event because it causes issues if the input is in a widget area or otherwise below the fold
+
+2014.9.25 - version 2.0.8
+* Tweak: improved Composites support. props @franticpsyx 
+
+2014.9.25 - version 2.0.7
+* Tweak: update supported product types to include Composite's new product name
+
+2014.8.27 - version 2.0.6
+* Fix: hide minimum price on variable products with multiple NYP variations
+ 
+2014.8.4 - version 2.0.5
+* Fix: removed span tag of class = amount to prevent double amount class which doubles font size, props @splashingpixels
+* Fix: undefined POST variable array, props @splashingpixels
+
+2014.6.23 - version 2.0.4
+* Fix: display of subscription terms on subscription variations
+* Fix: variable billing period so it only works on simple subscriptions
+
+2014.5.30 - version 2.0.3
+* Fix: bug with variable subscriptions not firing WC_Name_Your_Price_Admin::save_product_variation()
+
+2014.4.25 - version 2.0.2
+* Fix: remove stray echo from display_price_input() method
+* Fix: resolve PHP notice in variable_product_sync() method
+* Tweak: minify scripts
+
+2014.02.25 - version 2.0.1
+* Fix: bug with NYP inputs displaying on variable products without NYP variations
+* Fix: bug with display variable billing checkbox without Subscriptions enabled
+* Tweak: separate registering and enqueing NYP scripts 
+* Fix: remove Product Bundles script as dependency for front-end NYP script
+* Fix: bug with NYP not loading with network activation of WooCommerce
+
+2014.01.20 - version 2.0
+* MAJOR OVERHAUL! 
+* please revisit any customizations if you were overriding any templates OR
+* if you were using the global $wc_name_your_price to disable the stylesheet (can be done from settings now) or move markup
+* New: price input template totally revamped
+* New: add support for variable and variable subscription products (requires WC 2.1)
+* New: add support for variable billing periods to simple subscriptions
+* New: add support for product bundles
+* Tweak: quick edit disabled for WC 2.0.20, but will work on simple products in 2.1
+
+2013.11.29 - version 1.2.8
+* Tweak: change $plugin_path variable to public
+
+2013.09.14 - version 1.2.7
+* New: add filters for suggested and minimum price strings
+
+2013.08.28 - version 1.2.6
+* Fix: quick edit
+
+2013.08.07 - version 1.2.5
+* Fix: Don't break Sensei products
+
+2013.06.10 - version 1.2.4
+* New: Compatibility with quick-view
+
+2013.02.26 - version 1.2.3
+* Fix: incorrect URL for quick-edit.js
+
+2013.02.26 - version 1.2.2
+* Fix: changed validation to allow for inputs with alternative decimals and thousands separators
+
+2013.01.30 - version 1.2.1
+* Fix: misspelling of is_puchasable() to is_purchasable()
+
+2013.01.27 - version 1.2
+* Fix: Remove disfunctional javascript validation
+* New: Add filters for raw minimum and suggested prices
+
+2012.12.27 - version 1.1.5
+* New: Allow zero price
+
+2012.12.27 - version 1.1.4
+* Remove tax label from price input
+
+2012.12.04 - version 1.1.3
+ * Logic error in WC detection
+
+2012.12.04 - version 1.1.2
+ * New: New updater
+ * Fix: loop price display bug
+ * Tweak: remove remove_loop_price() method, all handled via filter_suggested_price() method
+
+2012.11.26 - version 1.1.1
+ * Fix: PHP notices
+
+2012.11.05 - version 1.1
+ * Tweak: Changed hook for wider theme support
+ * New: support for subscriptions
+
+2012.08.17 - version 1.0
+ * First Release

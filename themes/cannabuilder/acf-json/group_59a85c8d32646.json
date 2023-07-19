@@ -1,0 +1,94 @@
+{
+    "key": "group_59a85c8d32646",
+    "title": "Featured Image Image Focus Point",
+    "fields": [
+        {
+            "key": "field_59a85ca3ead53",
+            "label": "Horizontal Focus Point",
+            "name": "horizontal_focus_point",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "0%": "Left",
+                "25%": "Left Center",
+                "50%": "Center",
+                "75%": "Right Center",
+                "100%": "Right"
+            },
+            "default_value": "50%",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59a85ce8ead54",
+            "label": "Vertical Focus Point",
+            "name": "vertical_focus_point",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "0%": "Top",
+                "25%": "Top Center",
+                "50%": "Center",
+                "75%": "Bottom Center",
+                "100%": "Bottom"
+            },
+            "default_value": "50%",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "teammember"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1598642371
+}

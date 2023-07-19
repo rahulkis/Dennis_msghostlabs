@@ -1,0 +1,613 @@
+# Copyright (C) 2021 Kathy Darling
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Name Your Price 3.2.1\n"
+"Report-Msgid-Bugs-To: https://woocommerce.com/my-account/tickets/\n"
+"POT-Creation-Date: 2021-02-11 15:26:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/admin/class-wc-name-your-price-admin.php:99
+msgid "Enter a value"
+msgstr ""
+
+#: includes/admin/class-wc-name-your-price-admin.php:100
+msgid "Enter a value (fixed or %)"
+msgstr ""
+
+#: includes/admin/class-wc-name-your-price-admin.php:131
+#: includes/admin/class-wc-name-your-price-admin.php:134
+#: includes/admin/class-wc-name-your-price-admin.php:212
+#: includes/admin/class-wc-name-your-price-admin.php:359
+#: includes/admin/class-wc-nyp-admin-settings.php:31
+#: includes/admin/class-wc-settings-nyp.php:26
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:94
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:380
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:502
+#: includes/admin/views/html-admin-page-status-report.php:18
+msgid "Name Your Price"
+msgstr ""
+
+#: includes/admin/class-wc-name-your-price-admin.php:136
+msgid ""
+"In the \"Product Meta\" metabox, check the Name Your Price checkbox to "
+"allow your customers to enter their own price."
+msgstr ""
+
+#: includes/admin/class-wc-name-your-price-admin.php:138
+msgid ""
+"As of Name Your Price version 2.0, this ability is available for "
+"\"Simple\", \"Subscription\", \"Bundled\", \"Variable\" and \"Variable "
+"Subscriptions\" Products."
+msgstr ""
+
+#: includes/admin/class-wc-name-your-price-admin.php:140
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:167
+msgid "Suggested Price"
+msgstr ""
+
+#: includes/admin/class-wc-name-your-price-admin.php:142
+msgid ""
+"This is the price you'd like to suggest to your customers.  The Name Your "
+"Price input will be prefilled with this value.  To not suggest a price at "
+"all, you may leave this field blank."
+msgstr ""
+
+#: includes/admin/class-wc-name-your-price-admin.php:144
+msgid "This value must be a positive number."
+msgstr ""
+
+#: includes/admin/class-wc-name-your-price-admin.php:146
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:207
+msgid "Minimum Price"
+msgstr ""
+
+#: includes/admin/class-wc-name-your-price-admin.php:148
+msgid ""
+"This is the lowest price you are willing to accept for this product.  To "
+"not enforce a minimum (ie: to accept any price, including zero), you may "
+"leave this field blank."
+msgstr ""
+
+#: includes/admin/class-wc-name-your-price-admin.php:150
+msgid ""
+"This value must be a positive number that is less than or equal to the set "
+"suggested price."
+msgstr ""
+
+#: includes/admin/class-wc-name-your-price-admin.php:152
+msgid "Subscriptions"
+msgstr ""
+
+#: includes/admin/class-wc-name-your-price-admin.php:154
+msgid ""
+"If you have a name your price subscription product, the subscription time "
+"period fields are still needed, but the price will be disabled in lieu of "
+"the Name Your Price suggested and minimum prices."
+msgstr ""
+
+#: includes/admin/class-wc-name-your-price-admin.php:156
+msgid ""
+"As of Name Your Price version 2.0, you can now allow variable billing "
+"periods."
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-notices.php:126
+msgid "Dismiss"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-notices.php:185
+msgid "run the update process manually"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-notices.php:187
+#. Translators: %s 'run the update process manually' prompt for updating
+#. manually.
+msgid "&hellip;Taking a while? You may need to %s."
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-notices.php:190
+msgid "WooCommerce Name Your Price Data Update"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-notices.php:190
+msgid "Your database is being updated in the background."
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-notices.php:195
+msgid "WooCommerce Name Your Price data update complete."
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-notices.php:212
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-notices.php:216
+msgid "You do not have perission to dismiss this notice."
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:50
+#: includes/admin/class-wc-settings-nyp.php:45
+msgid "Name Your Price Setup"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:52
+#: includes/admin/class-wc-settings-nyp.php:47
+msgid "Modify the text strings used by the Name Your Own Price extension."
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:57
+#: includes/admin/class-wc-settings-nyp.php:52
+msgid "Suggested Price Text"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:58
+msgid ""
+"This is the text to display before the suggested price. You can use the "
+"placeholder %PRICE% to display the suggested price."
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:62
+#: includes/admin/class-wc-settings-nyp.php:57
+msgid "Suggested price:"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:67
+#: includes/admin/class-wc-settings-nyp.php:62
+msgid "Minimum Price Text"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:68
+msgid ""
+"This is the text to display before the minimum accepted price. You can use "
+"the placeholder %PRICE% to display the minimum price."
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:72
+#: includes/admin/class-wc-settings-nyp.php:67
+msgid "Minimum price:"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:77
+#: includes/admin/class-wc-settings-nyp.php:72
+msgid "Name Your Price Text"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:78
+#: includes/admin/class-wc-settings-nyp.php:73
+msgid "This is the text that appears above the Name Your Price input field."
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:82
+#: includes/admin/class-wc-settings-nyp.php:77
+#: includes/class-wc-name-your-price-helpers.php:517
+msgid "Name your price"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:87
+#: includes/admin/class-wc-settings-nyp.php:82
+msgid "Add to Cart Button Text for Shop"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:88
+#: includes/admin/class-wc-settings-nyp.php:83
+msgid "This is the text that appears on the Add to Cart buttons on the Shop Pages."
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:92
+#: includes/admin/class-wc-nyp-admin-settings.php:93
+#: includes/class-wc-name-your-price-display.php:528
+#: includes/class-wc-name-your-price-display.php:533
+msgid "Choose price"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:98
+#: includes/admin/class-wc-settings-nyp.php:92
+msgid "Add to Cart Button Text for Single Product"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:99
+#: includes/admin/class-wc-settings-nyp.php:93
+msgid ""
+"This is the text that appears on the Add to Cart buttons on the Single "
+"Product Pages. Leave blank to inherit the default add to cart text."
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:113
+#: includes/admin/class-wc-settings-nyp.php:107
+msgid "Name Your Price Style"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-admin-settings.php:120
+#: includes/admin/class-wc-settings-nyp.php:114
+msgid "Disable Name Your Price Stylesheet"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-install.php:97
+#. Translators: %s is the URL to the documentation.
+msgid ""
+"<strong>WooCommerce Name Your Price</strong> has been upgraded to version "
+"3.0! Read more about <a target=\"_blank\" href=\"%s\">what's new in 3.0</a>"
+msgstr ""
+
+#: includes/admin/class-wc-settings-nyp.php:53
+msgid "This is the text to display before the suggested price."
+msgstr ""
+
+#: includes/admin/class-wc-settings-nyp.php:63
+msgid "This is the text to display before the minimum accepted price."
+msgstr ""
+
+#: includes/admin/class-wc-settings-nyp.php:87
+msgid "Set price"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:95
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:380
+msgid "Customers are allowed to determine their own price."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:142
+msgid "Variable Billing Period"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:143
+msgid "Allow the customer to set the billing period."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:169
+msgid ""
+"Price to replace the default price string.  Leave blank to not suggest a "
+"price."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:181
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:220
+msgid "per"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:209
+msgid ""
+"Lowest acceptable price for product. Leave blank to not enforce a minimum. "
+"Must be less than or equal to the set suggested price."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:231
+msgid "Hide Minimum Price"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:233
+msgid "Option to not show the minimum price on the front end."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:258
+msgid "Maximum Price"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:260
+msgid "Highest acceptable price for product. Leave blank to not enforce a maximum."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:310
+#. Translators: %d variation ID.
+msgid ""
+"The suggested price must be higher than the minimum for Name Your Price "
+"products. Please review your prices."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:321
+#. Translators: %d variation ID.
+msgid ""
+"The maximum price must be higher than the minimum for Name Your Price "
+"products. Please review your prices."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:469
+#. Translators: %d variation ID.
+msgid ""
+"The suggested price must be higher than the minimum for Name Your Price "
+"products. Please review your prices for variation #%d."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:476
+#. Translators: %d variation ID.
+msgid ""
+"The maximum price must be higher than the minimum for Name Your Price "
+"products. Please review your prices for variation #%d."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:503
+msgid "Toggle &quot;Name Your Price&quot;"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:504
+msgid "Set suggested prices"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:505
+msgid "Increase suggested prices (fixed amount or %)"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:506
+msgid "Decrease suggested prices (fixed amount or %)"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:507
+msgid "Set minimum prices"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:508
+msgid "Increase minimum prices (fixed amount or %)"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:509
+msgid "Decrease minimum prices (fixed amount or %)"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:510
+msgid "Toggle &quot;hide minimum price&quot;"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:511
+msgid "Set maximum prices"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:512
+msgid "Increase maximum prices (fixed amount or %)"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-nyp-meta-box-product-data.php:513
+msgid "Decrease maximum prices (fixed amount or %)"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-status-report.php:23
+msgid "Version"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-status-report.php:27
+msgid "Template overrides"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-status-report.php:28
+msgid "Shows any files overriding the default Name Your Price templates."
+msgstr ""
+
+#: includes/admin/views/html-admin-page-status-report.php:46
+#. Translators: %1$s: Template name, %2$s: Template version, %3$s: Core
+#. version.
+msgid "%1$s version %2$s (out of date)"
+msgstr ""
+
+#: includes/class-wc-name-your-price-cart.php:49
+#: includes/class-wc-name-your-price-display.php:49
+#: includes/class-wc-name-your-price-order.php:48
+#: includes/class-wc-name-your-price.php:78
+#: includes/compatibility/class-wc-name-your-price-compatibility.php:52
+msgid "Cloning this object is forbidden."
+msgstr ""
+
+#: includes/class-wc-name-your-price-cart.php:58
+#: includes/class-wc-name-your-price-display.php:58
+#: includes/class-wc-name-your-price-order.php:57
+#: includes/class-wc-name-your-price.php:87
+#: includes/compatibility/class-wc-name-your-price-compatibility.php:61
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: includes/class-wc-name-your-price-cart.php:124
+msgid "Cart updated."
+msgstr ""
+
+#: includes/class-wc-name-your-price-display.php:164
+msgid "%price / %period"
+msgstr ""
+
+#: includes/class-wc-name-your-price-display.php:430
+msgid "Update Cart"
+msgstr ""
+
+#: includes/class-wc-name-your-price-display.php:454
+#: includes/class-wc-name-your-price-helpers.php:910
+#. Translators: %1$s is minimum price html. %2$s subscription terms.
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/class-wc-name-your-price-helpers.php:958
+#. Translators: %1$s is null string because minimum price is displayed
+#. elsewhere. %2$s is minimum billing period.
+msgid "%1$s every %2$s"
+msgstr ""
+
+#: includes/class-wc-name-your-price-helpers.php:961
+#. Translators: %s is minimum billing period.
+msgid "Due every %s"
+msgstr ""
+
+#: includes/class-wc-name-your-price-helpers.php:971
+msgid "Due"
+msgstr ""
+
+#: includes/class-wc-name-your-price-helpers.php:1117
+msgid "This is not a valid product."
+msgstr ""
+
+#: includes/class-wc-name-your-price-helpers.php:1118
+msgid ""
+"&quot;%%TITLE%%&quot; could not be added to the cart. Please enter a valid, "
+"positive number."
+msgstr ""
+
+#: includes/class-wc-name-your-price-helpers.php:1119
+msgid ""
+"&quot;%%TITLE%%&quot; could not be added to the cart. Please enter at least "
+"%%MINIMUM%%."
+msgstr ""
+
+#: includes/class-wc-name-your-price-helpers.php:1120
+msgid ""
+"&quot;%%TITLE%%&quot; could not be added to the cart. Please enter a higher "
+"amount."
+msgstr ""
+
+#: includes/class-wc-name-your-price-helpers.php:1121
+msgid "Please enter at least %%MINIMUM%%."
+msgstr ""
+
+#: includes/class-wc-name-your-price-helpers.php:1122
+msgid "Please enter a higher amount."
+msgstr ""
+
+#: includes/class-wc-name-your-price-helpers.php:1123
+msgid ""
+"&quot;%%TITLE%%&quot; could not be added to the cart. Please enter less "
+"than or equal to %%MAXIMUM%%."
+msgstr ""
+
+#: includes/class-wc-name-your-price-helpers.php:1124
+msgid "Please enter less than or equal to %%MAXIMUM%%."
+msgstr ""
+
+#: includes/class-wc-name-your-price-helpers.php:1125
+msgid "Please enter an amount."
+msgstr ""
+
+#: includes/class-wc-name-your-price-helpers.php:1126
+msgid ""
+"&quot;%%TITLE%%&quot; cannot be purchased. Please enter at least "
+"%%MINIMUM%%."
+msgstr ""
+
+#: includes/class-wc-name-your-price-helpers.php:1127
+msgid ""
+"&quot;%%TITLE%%&quot; cannot be purchased. Please enter less than or equal "
+"to %%MAXIMUM%%."
+msgstr ""
+
+#: includes/class-wc-name-your-price.php:265
+msgid "Go to the settings page"
+msgstr ""
+
+#: includes/class-wc-name-your-price.php:265
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wc-name-your-price.php:288
+#. Translators: %s minimum required WooCommerce version number.
+msgid ""
+"WooCommerce Name Your Price requires at least WooCommerce %s in order to "
+"function. Please activate or upgrade WooCommerce."
+msgstr ""
+
+#: includes/class-wc-name-your-price.php:305 woocommerce-name-your-price.php:49
+#. Translators: %1$s opening <a> tag for link. %2$s closing </a> tag. %3$s
+#. minimum required WooCommerce version number.
+msgid ""
+"<strong>WooCommerce Name Your Price is inactive.</strong> The "
+"%1$sWooCommerce plugin%2$s must be active and at least version %3$s for "
+"Name Your Price to function. Please upgrade or activate WooCommerce."
+msgstr ""
+
+#: includes/class-wc-name-your-price.php:314 woocommerce-name-your-price.php:63
+#. Translators: %1$s link to documentation. %2$s minimum required PHP version
+#. number.
+msgid ""
+"WooCommerce Name Your Price requires at least PHP <strong>%1$s</strong>. "
+"Learn <a href=\"%2$s\">how to update PHP</a>."
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-nyp-subscriptions-compatibility.php:50
+msgid "Change Name Your Price subscription amount"
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-nyp-subscriptions-compatibility.php:185
+msgid ""
+"Please modify the price or billing period so that it is not the same as "
+"your existing subscription."
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-nyp-subscriptions-compatibility.php:189
+msgid ""
+"Please modify the price so that it is not the same as your existing "
+"subscription."
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-nyp-subscriptions-compatibility.php:222
+msgid "You are only allowed to change this subscription's price."
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-nyp-subscriptions-compatibility.php:229
+msgid "You do not have permission to modify the price of this subscription."
+msgstr ""
+
+#: templates/single-product/donation/custom-donation-variation.php:31
+msgid "Enter your own amount"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Name Your Price"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woocommerce.com/products/name-your-price/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WooCommerce Name Your Price allows customers to set their own price for "
+"products or donations."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Kathy Darling"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://kathyisawesome.com"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-install.php:80
+msgctxt "Name your price default miinium text"
+msgid "Minimum price: %PRICE%"
+msgstr ""
+
+#: includes/admin/class-wc-nyp-install.php:87
+#: includes/class-wc-name-your-price-helpers.php:458
+msgctxt "Name your price default suggested text"
+msgid "Suggested price: %PRICE%"
+msgstr ""
+
+#: includes/class-wc-name-your-price-display.php:807
+msgctxt "edit in cart link text"
+msgid "Edit"
+msgstr ""
+
+#: includes/class-wc-name-your-price-display.php:810
+#. Translators: %1$s Original cart price string. %2$s URL for edit price link.
+#. %3$s text for edit price link.
+msgctxt "edit in cart text"
+msgid ""
+"%1$s<br/><a class=\"edit_price_in_cart_text edit_in_cart_text\" "
+"href=\"%2$s\"><small>%3$s</small></a>"
+msgstr ""
+
+#: includes/class-wc-name-your-price-helpers.php:418
+msgctxt "Name your price default minimum text"
+msgid "Minimum price: %PRICE%"
+msgstr ""
+
+#: includes/class-wc-name-your-price-helpers.php:516
+#. Translators: %1$s is the label text and %2$s is the currency symbol.
+msgctxt "Name your price input label"
+msgid "%1$s ( %2$s )"
+msgstr ""
+
+#: templates/single-product/donation/custom-donation-variation.php:31
+msgctxt "In case you need to change the order of Name Your Price ( $currency_symbol )"
+msgid "%s ( %s )"
+msgstr ""

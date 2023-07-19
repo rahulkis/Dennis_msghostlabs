@@ -1,0 +1,44 @@
+{
+    "key": "group_6196c93b33fc8",
+    "title": "Pop-Up Settings",
+    "fields": [
+        {
+            "key": "field_6196c94d572f4",
+            "label": "Pop-up ID",
+            "name": "cp_popup_id",
+            "type": "text",
+            "instructions": "No spaces or special characters. Example: \"newsletterpopup\" - you can create a link to #newsletterpopup to open this pop-up.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "#",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "pop-up"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1637271961
+}

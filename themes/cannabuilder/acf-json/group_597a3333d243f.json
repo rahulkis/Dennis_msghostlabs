@@ -1,0 +1,61 @@
+{
+    "key": "group_597a3333d243f",
+    "title": "Menu Item Settings",
+    "fields": [
+        {
+            "key": "field_597f808f812e8",
+            "label": "Button",
+            "name": "menu_item_button",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "Choose a button style",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "choices": {
+                "btn-primary": "Primary Button",
+                "btn-primary-outline": "Primary Outline Button"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "placeholder": "",
+            "allow_null": 1,
+            "ui": 0,
+            "ajax": 0,
+            "allow_custom": 0,
+            "search_placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "nav_menu_item",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1686238788
+}

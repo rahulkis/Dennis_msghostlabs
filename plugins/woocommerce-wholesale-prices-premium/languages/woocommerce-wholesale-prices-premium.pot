@@ -1,0 +1,3423 @@
+# Copyright (C) 2023 Rymera Web Co
+# This file is distributed under the same license as the WooCommerce Wholesale Prices Premium plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Wholesale Prices Premium 1.30.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-wholesale-prices-premium\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-05-01T09:40:38+08:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: woocommerce-wholesale-prices-premium\n"
+
+#. Plugin Name of the plugin
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:11
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:19
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:27
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:51
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:75
+msgid "WooCommerce Wholesale Prices Premium"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wholesalesuiteplugin.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "WooCommerce Premium Extension for the Woocommerce Wholesale Prices Plugin"
+msgstr ""
+
+#. Author of the plugin
+msgid "Rymera Web Co"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://rymera.com.au/"
+msgstr ""
+
+#. Translators: $1 is Role name
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:137
+msgid "%s Discount For Products In This Category. In Percent (&#37;). Ex. 3 percent then input 3, 30 percent then input 30, 0.3 percent then input 0.3."
+msgstr ""
+
+#. Translators: $1 is Role Name
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:180
+msgid "%1$s Discount For Products In This Category. In Percent (&#37;). Ex. 3 percent then input 3, 30 percent then input 30, 0.3 percent then input 0.3."
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:296
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:329
+msgid "Wholesale Role Filter"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:297
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:331
+msgid "Select Wholesale Roles..."
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:302
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:336
+msgid "Select wholesale roles this product category term is exclusive to."
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:410
+msgid "Quantity Based Wholesale %"
+msgstr ""
+
+#. Translators: $1 <br /> tag. $2 opening <a> tag KB article link. $3 closing </a> tag.
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:421
+msgid "Specify tiered &#37; discount based on the quantity of the product being purchased. Ending Qty can be left blank to apply that price for all quantities above the Starting Qty. Only applies to the wholesale roles that you specify. %1$sPlease see here%2$s for an explanation of this feature."
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:432
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:237
+msgid "Enable further wholesale pricing discounts based on quantity purchased?"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:442
+msgid "By default, the category quantity based discounts system will use the total quantity of all items that belong to this category. This option changes this to apply category quantity based discounts based on the quantity of individual products in the cart"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:454
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:499
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:509
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:267
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:368
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:379
+#: includes/class-wwpp-script-loader.php:247
+#: includes/class-wwpp-script-loader.php:385
+#: includes/class-wwpp-script-loader.php:476
+#: includes/class-wwpp-script-loader.php:532
+#: includes/class-wwpp-script-loader.php:715
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:6
+#: views/plugin-settings-custom-fields/view-wwpp-discount-controls-custom-field.php:9
+#: views/plugin-settings-custom-fields/view-wwpp-discount-controls-custom-field.php:45
+#: views/plugin-settings-custom-fields/view-wwpp-discount-controls-custom-field.php:53
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:9
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:63
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:73
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:17
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:100
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:112
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:11
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:92
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:104
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:13
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:124
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:151
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-payment-gateway-controls-custom-field.php:13
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-payment-gateway-controls-custom-field.php:57
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-payment-gateway-controls-custom-field.php:64
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-class-options-mapping-controls-custom-field.php:7
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-class-options-mapping-controls-custom-field.php:53
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-class-options-mapping-controls-custom-field.php:61
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-options-mapping-controls-custom-field.php:11
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-options-mapping-controls-custom-field.php:49
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-options-mapping-controls-custom-field.php:57
+msgid "Wholesale Role"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:460
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:32
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:16
+msgid "Select wholesale role to which rule applies."
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:464
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:500
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:510
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:280
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:369
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:380
+#: includes/class-wwpp-script-loader.php:248
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:22
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:64
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:74
+msgid "Starting Qty"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:466
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:283
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:24
+msgid "Minimum order quantity required for this rule. Must be a number."
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:470
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:501
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:511
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:292
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:370
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:381
+#: includes/class-wwpp-script-loader.php:249
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:30
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:65
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:75
+msgid "Ending Qty"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:472
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:295
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:32
+msgid "Maximum order quantity required for this rule. Must be a number. Leave this blank for no maximum quantity."
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:476
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:502
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:512
+msgid "Wholesale Discount (%)"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:478
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:40
+msgid "The new % value off the regular price. This will be the discount value used for quantities within the given range."
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:483
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:357
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:462
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:516
+#: includes/class-wwpp-script-loader.php:407
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:68
+#: views/plugin-settings-custom-fields/view-wwpp-discount-controls-custom-field.php:33
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:52
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:88
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:78
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:112
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-payment-gateway-controls-custom-field.php:45
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-class-options-mapping-controls-custom-field.php:40
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-options-mapping-controls-custom-field.php:37
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:484
+msgid "Edit Quantity Discount Rule"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:485
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:359
+msgid "Add Quantity Discount Rule"
+msgstr ""
+
+#. Translators: $1 is role name
+#. Translators: $1 is user role
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:536
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:502
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:120
+#: views/plugin-settings-custom-fields/view-wwpp-discount-controls-custom-field.php:71
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:98
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:126
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-payment-gateway-controls-custom-field.php:97
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-class-options-mapping-controls-custom-field.php:83
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-options-mapping-controls-custom-field.php:84
+msgid "%1$s role does not exist anymore"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:555
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:445
+#: includes/class-wwpp-script-loader.php:262
+#: includes/class-wwpp-script-loader.php:827
+msgid "No Quantity Discount Rules Found"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:617
+#: includes/class-wwpp-wws-license-manager.php:106
+msgid "Required parameters not supplied"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:733
+msgid "Duplicate wholesale discount rule"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:744
+msgid "Overlap wholesale discount rule"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:832
+msgid "The wholesale discount entry you wish to delete does not exist on record"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:894
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:636
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:859
+#: includes/class-wwpp-script-loader.php:257
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:314
+msgid "Ending Qty must not be less than Starting Qty"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:900
+msgid "The wholesale discount entry you wish to edit does not exist on record"
+msgstr ""
+
+#: includes/admin-custom-fields/product-category/class-wwpp-admin-custom-fields-product-category.php:906
+msgid "Invalid category level quantity based wholesale discount entry data"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:213
+msgid "Product Quantity Based Wholesale Pricing"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:217
+msgid "Specify further wholesale discounts based on the total quantity of all variations of this product in the cart. If you wish to use quantity based pricing on individual variations, uncheck this option and use the controls on the variations instead. Ending Qty can be left blank to apply that price for all quantities above the Starting Qty. Only applies to the wholesale roles that you specify."
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:218
+msgid "Note: Wholesale Price is calculated via percentage discount, it is based on the wholesale price of variation if set else it will use the regular price."
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:220
+msgid "Specify wholesale price for this current product depending on the quantity being purchased. Ending Qty can be left blank to apply that price for all quantities above the Starting Qty. Only applies to the wholesale roles that you specify."
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:227
+msgid "Note: If you have not specify mapping for other currencies for a given wholesale role, it will derive its wholesale price automatically by converting the base currency wholesale price to that currency"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:247
+msgid "% value off the wholesale price. This will be the discount value used for quantities within the given range. Please input value without comma separator."
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:249
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:255
+msgid "Discount % off the wholesale price"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:252
+msgid "$ or the new % value off the wholesale price. This will be the discount value used for quantities within the given range. Please input value without comma separator."
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:254
+#: includes/class-wwpp-per-wholesale-user-settings.php:565
+#: includes/class-wwpp-settings.php:1196
+msgid "Fixed Price"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:270
+msgid "Select wholesale role to which this rule applies."
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:304
+#: includes/class-wwpp-script-loader.php:250
+msgid "Price Type"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:307
+msgid "Select pricing type"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:307
+msgid "Only percentage discount is allowed for variable level quantity discount."
+msgstr ""
+
+#. Translators: $1 is currency symbol
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:318
+msgid "Wholesale Price%1$s"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:332
+#: includes/class-wwpp-script-loader.php:265
+msgid "(Base Currency)"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:344
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:372
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:383
+#: includes/class-wwpp-script-loader.php:252
+msgid "Currency"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:347
+msgid "Select Currency"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:358
+msgid "Save Quantity Discount Rule"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:371
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:382
+#: includes/class-wwpp-script-loader.php:251
+#: includes/plugin-integrations/woocommerce-composite-products/class-wwpp-wc-composite-product.php:453
+#: includes/plugin-integrations/woocommerce-composite-products/class-wwpp-wc-composite-product.php:500
+#: includes/plugin-integrations/woocommerce-product-bundles/class-wwpp-wc-product-bundles.php:1984
+msgid "Wholesale Price"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:612
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:834
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:278
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:283
+msgid "Quantity discount rule data passed is in invalid format."
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:626
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:849
+msgid "Quantity discount rule data passed is invalid. The following fields are required ( Wholesale Role / Starting Qty / Price Type / Wholesale Price )."
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:631
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:854
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:309
+msgid "Quantity discount rule data passed is invalid. The following fields must be a number ( Starting Qty / Ending Qty / Wholesale Price )."
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:715
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:951
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:386
+msgid "Duplicate quantity discount rule"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:721
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:957
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:392
+msgid "Overlap quantity discount rule"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:870
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:320
+msgid "Quantity discount rule entry you want to edit does not exist"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-product.php:1054
+msgid "Quantity discount rule entry you want to delete does not exist"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:109
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:278
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:552
+msgid "Wholesale Minimum Order Quantity"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:110
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:554
+msgid "Minimum number of items to be purchased in order to avail this product's wholesale price.<br/>Only applies to wholesale users.<br/><br/>Setting a step value below for the corresponding wholesale role will prevent the specific wholesale customer from adding to cart quantity of this product lower than the set minimum."
+msgstr ""
+
+#. translators: %1$s Wholesale role
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:122
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:173
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:572
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:634
+msgid "Only applies to users with the role of \"%1$s\""
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:160
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:293
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:614
+msgid "Wholesale Order Quantity Step"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:161
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:616
+msgid "Order quantity step wholesale users are restricted to when purchasing this product.<br/>Only applies to wholesale users.<br/><br/>Minimum order quantity above for corresponding wholesale role must be set for this feature to take effect."
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:282
+msgid "%1$s Minimum Order Quantity"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:297
+msgid "%1$s Order Quantity Step"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:425
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:997
+msgid "Sale Discount (%)"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:428
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:1001
+msgid "The percentage amount discounted from the wholesale price"
+msgstr ""
+
+#. translators: %s: currency symbol
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:444
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:503
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:1016
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:1077
+msgid "Schedule"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:459
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:513
+msgid "Sale price dates"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:460
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:514
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:1032
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:1090
+msgctxt "placeholder"
+msgid "From&hellip;"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:461
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:515
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:1036
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:1094
+msgctxt "placeholder"
+msgid "To&hellip;"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:462
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:516
+msgid "The sale will start at 00:00:00 of \"From\" date and end at 23:59:59 of \"To\" date."
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-simple-product.php:502
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:1078
+msgid "Auto"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:156
+msgid "Wholesale Exclusive Variation"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:158
+msgid "Specify if this variation should be exclusive to wholesale roles. Leave empty to make it available to all.<br><br>"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:165
+#: includes/class-wwpp-product-visibility.php:601
+#: views/backend/product/single/view-wwpp-product-wholesale-role-visibility-filter.php:19
+msgid "Choose wholesale users..."
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:361
+msgid "Parent Product Wholesale Minimum Order Quantity"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:363
+msgid "Customers can add multiple variations to the cart and if the sum of all these variations exceeds the minimum quantity value supplied here, they will be granted the wholesale pricing as per the wholesale price on each variation."
+msgstr ""
+
+#. translators: %1$s Wholesale role
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:377
+msgid "The minimum order quantity for the sum of all variations of this product in the cart for the \"%1$s\" role."
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:412
+msgid "Parent Product Wholesale Order Quantity Step"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:414
+msgid "Customers can add multiple variations to the cart and if the sum of all these variations is within the increments (step) multiplier specified, they will be granted the wholesale pricing as per the wholesale price on each variation. Min order qty above must be specified to enable this feature."
+msgstr ""
+
+#. translators: %1$s Wholesale role
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:427
+msgid "Order quantity step wholesale users are restricted to when purchasing this product for the \"%1$s\" role."
+msgstr ""
+
+#. translators: %1$s Wholesale role
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:796
+msgid "Set wholesale sale prices (%1$s)"
+msgstr ""
+
+#. translators: %1$s Wholesale role
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:809
+msgid "Set minimum order quantity (%1$s)"
+msgstr ""
+
+#. translators: %1$s Wholesale role
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:822
+msgid "Set order quantity step (%1$s)"
+msgstr ""
+
+#. translators: %s: currency symbol
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:1016
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:1077
+msgid "Wholesale Sale Price (%1$s)"
+msgstr ""
+
+#. translators: %s: currency symbol
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:1016
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:1077
+msgid "Cancel schedule"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:1031
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:1089
+msgid "Sale start date"
+msgstr ""
+
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:1035
+#: includes/admin-custom-fields/products/class-wwpp-admin-custom-fields-variable-product.php:1093
+msgid "Sale end date"
+msgstr ""
+
+#: includes/api/legacy/class-wc-api-wholesale-products-controller.php:988
+#: includes/api/legacy/class-wc-api-wholesale-products-controller.php:1106
+#: includes/api/legacy/class-wc-api-wholesale-products-variations-controller.php:258
+#: includes/api/legacy/class-wc-api-wholesale-products-variations-controller.php:289
+#: includes/api/legacy/class-wc-api-wholesale-products-variations-controller.php:333
+msgid "Not a wholesale product."
+msgstr ""
+
+#: includes/api/legacy/class-wc-api-wholesale-products-controller.php:1017
+#: includes/api/legacy/class-wc-api-wholesale-products-variations-controller.php:370
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-v1-controller.php:987
+msgid "Unable to create. Please provide \"wholesale_price\" in the request paremeter."
+msgstr ""
+
+#: includes/api/legacy/class-wc-api-wholesale-products-controller.php:1039
+#: includes/api/legacy/class-wc-api-wholesale-products-variations-controller.php:379
+#: includes/api/legacy/class-wc-api-wholesale-products-variations-controller.php:396
+msgid "Unable to create. Invalid wholesale price."
+msgstr ""
+
+#: includes/api/legacy/class-wc-api-wholesale-products-controller.php:1063
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-v1-controller.php:1014
+msgid "Unable to create. Make sure the quantity discount rule mapping is using \"percent-price\" for price type."
+msgstr ""
+
+#: includes/api/legacy/class-wc-api-wholesale-products-controller.php:1097
+#: includes/api/legacy/class-wc-api-wholesale-products-controller.php:1129
+#: includes/api/legacy/class-wc-api-wholesale-products-variations-controller.php:254
+#: includes/api/legacy/class-wc-api-wholesale-products-variations-controller.php:324
+msgid "Invalid wholesale role."
+msgstr ""
+
+#: includes/api/legacy/class-wc-api-wholesale-roles-controller.php:184
+#: includes/api/legacy/class-wc-api-wholesale-roles-controller.php:286
+#: includes/api/legacy/class-wc-api-wholesale-roles-controller.php:327
+msgid "Item not found."
+msgstr ""
+
+#: includes/api/legacy/class-wc-api-wholesale-roles-controller.php:240
+#: includes/api/v1/class-wwpp-rest-api-wholesale-roles-v1-controller.php:129
+msgid "Can't create item. Please make sure \"role_key\" is unique. Both \"role_key\" and \"role_name\" property are required."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-category-discount-v1-controller.php:128
+msgid "The category ID."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-category-discount-v1-controller.php:212
+#: includes/api/v1/class-wwpp-rest-api-wholesale-category-discount-v1-controller.php:251
+#: includes/api/v1/class-wwpp-rest-api-wholesale-category-discount-v1-controller.php:333
+#: includes/api/v1/class-wwpp-rest-api-wholesale-category-discount-v1-controller.php:377
+msgid "Category ID is invalid."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-category-discount-v1-controller.php:255
+msgid "Please provide discount for each wholesale roles."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-category-discount-v1-controller.php:290
+msgid "updated"
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-category-discount-v1-controller.php:290
+msgid "created"
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-category-discount-v1-controller.php:294
+msgid "Successfully %1s category discount."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-category-discount-v1-controller.php:304
+msgid "The parameter category_id is missing."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-category-discount-v1-controller.php:337
+msgid "Please provide wholesale role keys you want to remove."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-category-discount-v1-controller.php:348
+msgid "Make sure wholesale role are valid. Please indicate the wholesale roles you want to remove the discount."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-category-discount-v1-controller.php:367
+msgid "Successfully deleted category discount."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:134
+msgid "The wholesale role."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:140
+msgid "The wholesale discount."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:199
+msgid "No wholesale discount set for this wholesale role."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:208
+msgid "Invalid Wholesale Role."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:229
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:287
+msgid "Please provide wholesale_role and wholesale_discount parameter."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:233
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:291
+msgid "The parameter wholesale_discount must be numeric."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:240
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:298
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:351
+msgid "The wholesale role does not exist."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:250
+msgid "General discount is already created for this wholesale role."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:262
+msgid "Successfully created new general discount."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:309
+msgid "General discount does not exist."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:320
+msgid "Successfully updated general discount."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:344
+msgid "Missing parameter wholesale role."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:360
+msgid "Unable to delete. General discount does not exist."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-general-discount-v1-controller.php:370
+msgid "Successfully deleted general discount."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-v1-controller.php:1270
+msgid "Wholesale minimum order quantity for %s"
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-v1-controller.php:1279
+msgid "Wholesale order quantity step for %s"
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-v1-controller.php:1289
+msgid "The wholesale product visibility filter."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-v1-controller.php:1297
+msgid "The wholesale product minimum order quantity."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-v1-controller.php:1305
+msgid "The wholesale product order quantity step."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-v1-controller.php:1315
+msgid "Ignore category wholesale discount."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-v1-controller.php:1324
+msgid "Ignore role wholesale discount."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-v1-controller.php:1328
+msgid "The wholesale product quantity discount rule mapping."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-v1-controller.php:1337
+msgid "Wholesale role."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-v1-controller.php:1342
+msgid "Start quantity."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-v1-controller.php:1347
+msgid "End quantity."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-v1-controller.php:1352
+msgid "Price type."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-v1-controller.php:1357
+msgid "Wholesale price."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-v1-controller.php:1418
+#: includes/api/v1/class-wwpp-rest-api-wholesale-products-variations-v1-controller.php:152
+msgid "The product is restricted. Please provide the correct wholesale_role parameter for this product."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-roles-v1-controller.php:191
+msgid "You can't delete this role."
+msgstr ""
+
+#: includes/api/v1/class-wwpp-rest-api-wholesale-roles-v1-controller.php:215
+msgid "Wholesale role not found."
+msgstr ""
+
+#: includes/class-wwpp-bootstrap.php:1017
+msgid "Thank you for purchasing WooCommerce Wholesale Prices Premium – you now have a whole range of extra wholesale pricing, product and ordering features available."
+msgstr ""
+
+#: includes/class-wwpp-bootstrap.php:1018
+msgid "A great place to get started is with our official guide to the Premium add-on. Click through below and it will take you through all you need to know and where to get extra assistance if you need it."
+msgstr ""
+
+#: includes/class-wwpp-bootstrap.php:1020
+msgid "Read the Getting Started guide"
+msgstr ""
+
+#: includes/class-wwpp-bootstrap.php:1023
+msgid "Dismiss this notice."
+msgstr ""
+
+#: includes/class-wwpp-bootstrap.php:1092
+#: includes/class-wwpp-bootstrap.php:1095
+msgid "License"
+msgstr ""
+
+#: includes/class-wwpp-bootstrap.php:1101
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wwpp-bootstrap.php:1105
+msgid "Getting Started"
+msgstr ""
+
+#: includes/class-wwpp-cache.php:416
+#: includes/class-wwpp-cache.php:449
+#: includes/class-wwpp-wws-license-manager.php:274
+msgid "Invalid AJAX Operation"
+msgstr ""
+
+#: includes/class-wwpp-cache.php:421
+#: includes/class-wwpp-cache.php:454
+#: includes/class-wwpp-wws-license-manager.php:91
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:92
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:152
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:212
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:416
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:480
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:540
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:603
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:665
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:723
+#: includes/wholesale-roles/class-wwpp-wholesale-role-order-requirement-mapping.php:90
+#: includes/wholesale-roles/class-wwpp-wholesale-role-order-requirement-mapping.php:147
+#: includes/wholesale-roles/class-wwpp-wholesale-role-order-requirement-mapping.php:197
+#: includes/wholesale-roles/class-wwpp-wholesale-role-payment-gateway.php:447
+#: includes/wholesale-roles/class-wwpp-wholesale-role-payment-gateway.php:495
+#: includes/wholesale-roles/class-wwpp-wholesale-role-payment-gateway.php:543
+#: includes/wholesale-roles/class-wwpp-wholesale-role-payment-gateway.php:599
+#: includes/wholesale-roles/class-wwpp-wholesale-role-payment-gateway.php:656
+#: includes/wholesale-roles/class-wwpp-wholesale-role-payment-gateway.php:714
+#: includes/wholesale-roles/class-wwpp-wholesale-role-shipping-method.php:444
+#: includes/wholesale-roles/class-wwpp-wholesale-role-shipping-method.php:487
+#: includes/wholesale-roles/class-wwpp-wholesale-role-shipping-method.php:548
+#: includes/wholesale-roles/class-wwpp-wholesale-role-shipping-method.php:609
+#: includes/wholesale-roles/class-wwpp-wholesale-role-tax-option-mapping.php:86
+#: includes/wholesale-roles/class-wwpp-wholesale-role-tax-option-mapping.php:137
+#: includes/wholesale-roles/class-wwpp-wholesale-role-tax-option-mapping.php:186
+#: includes/wholesale-roles/class-wwpp-wholesale-role-tax-option-mapping.php:261
+#: includes/wholesale-roles/class-wwpp-wholesale-role-tax-option-mapping.php:337
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:136
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:211
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:283
+msgid "Security check failed"
+msgstr ""
+
+#: includes/class-wwpp-cache.php:430
+msgid "Successfully cleared all variable product price range and wholesale price cache."
+msgstr ""
+
+#: includes/class-wwpp-cache.php:461
+msgid "Successfully cleared all products transients cache"
+msgstr ""
+
+#. translators: %1$s Notice wrapper, %2$s Minimum cart items, %3$s Notice wrapper
+#: includes/class-wwpp-helper-functions.php:572
+msgid ""
+"%1$sYou have not met the minimum order quantity of %2$s to activate adjusted pricing. \n"
+"                                Retail  prices will be shown below until the minimum order threshold is met.%3$s"
+msgstr ""
+
+#. translators: %1$s Notice wrapper, %2$s Minimum cart price, %3$s Cart subtotal, %4$s Notice wrapper
+#: includes/class-wwpp-helper-functions.php:591
+msgid ""
+"%1$sYou have not met the minimum order subtotal of %2$s to activate adjusted pricing. \n"
+"                                Retail  prices will be shown below until the minimum order threshold is met.\n"
+"                                The cart subtotal calculated with wholesale prices is %3$s%4$s"
+msgstr ""
+
+#. translators: %1$s Notice wrapper, %2$s Minimum cart items, %3$s Minimum cart price, %4$s Cart subtotal, %5$s Notice wrapper
+#: includes/class-wwpp-helper-functions.php:613
+msgid ""
+"%1$sYou have not met the minimum order quantity of %2$s and minimum order subtotal of %3$s to activate adjusted pricing. \n"
+"                                    Retail prices will be shown below until the minimum order threshold is met.\n"
+"                                    The cart subtotal calculated with wholesale prices is %4$s%5$s"
+msgstr ""
+
+#. translators: %1$s Notice wrapper, %2$s Minimum cart items, %3$s Minimum cart price, %4$s Cart subtotal, %5$s Notice wrapper
+#: includes/class-wwpp-helper-functions.php:632
+msgid ""
+"%1$sYou have not met the minimum order quantity of %2$s or minimum order subtotal of %3$s to activate adjusted pricing. \n"
+"                                Retail prices will be shown below until the minimum order threshold is met.\n"
+"                                The cart subtotal calculated with wholesale prices is %4$s%5$s"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:114
+msgid "Override Minimum Order Requirements"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:119
+msgid "Override Minimum Order Quantity"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:123
+#: includes/class-wwpp-per-wholesale-user-settings.php:143
+#: includes/class-wwpp-per-wholesale-user-settings.php:180
+#: includes/class-wwpp-per-wholesale-user-settings.php:196
+#: includes/class-wwpp-per-wholesale-user-settings.php:227
+#: includes/class-wwpp-per-wholesale-user-settings.php:249
+#: includes/class-wwpp-per-wholesale-user-settings.php:271
+#: includes/class-wwpp-per-wholesale-user-settings.php:300
+#: includes/class-wwpp-per-wholesale-user-settings.php:325
+#: includes/class-wwpp-script-loader.php:163
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:5
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:118
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-options-mapping-controls-custom-field.php:26
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-options-mapping-controls-custom-field.php:86
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:7
+msgid "No"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:124
+#: includes/class-wwpp-per-wholesale-user-settings.php:144
+#: includes/class-wwpp-per-wholesale-user-settings.php:181
+#: includes/class-wwpp-per-wholesale-user-settings.php:197
+#: includes/class-wwpp-per-wholesale-user-settings.php:226
+#: includes/class-wwpp-per-wholesale-user-settings.php:250
+#: includes/class-wwpp-per-wholesale-user-settings.php:301
+#: includes/class-wwpp-per-wholesale-user-settings.php:326
+#: includes/class-wwpp-script-loader.php:162
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:4
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:117
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-options-mapping-controls-custom-field.php:25
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-options-mapping-controls-custom-field.php:86
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:8
+msgid "Yes"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:130
+#: includes/class-wwpp-script-loader.php:386
+msgid "Minimum Order Quantity"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:131
+msgid "Set as zero or leave blank to have no minimum quantity required."
+msgstr ""
+
+#. Translators: $1 currency symbol
+#: includes/class-wwpp-per-wholesale-user-settings.php:139
+msgid "Override Minimum Order Subtotal (%1$s)"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:150
+msgid "Minimum Order Subtotal"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:151
+msgid "Calculated using the product's defined wholesale price (before tax and shipping). Set to zero or leave blank to disable. Please enter price using dot (.) as decimal separator and without comma separator."
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:158
+#: includes/class-wwpp-script-loader.php:404
+msgid "Minimum Order Logic"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:159
+msgid "Either (minimum order quantity \"AND\" minimum order sub-total) or (minimum order quantity \"OR\" minimum order sub-total). Only applied if both minimum items and price is set"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:163
+#: includes/class-wwpp-script-loader.php:405
+msgid "AND"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:164
+#: includes/class-wwpp-script-loader.php:406
+msgid "OR"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:170
+msgid "Override Tax Exemption"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:175
+#: includes/class-wwpp-settings.php:533
+msgid "Tax Exemption"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:179
+msgid "Use Global Option"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:187
+#: includes/class-wwpp-per-wholesale-user-settings.php:192
+msgid "Override Wholesale General Discount"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:203
+msgid "Percent Discount (%)"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:210
+msgid "Override General Quantity Based Discounts?"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:214
+msgid "Disabled"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:215
+msgid "Use Globally Defined General Quantity Based Discounts"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:216
+msgid "Define Alternate Quantity Based Discounts For This User"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:222
+#: includes/class-wwpp-settings.php:763
+msgid "Apply Discounts Based On Individual Product Quantities?"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:240
+#: includes/class-wwpp-per-wholesale-user-settings.php:245
+msgid "Override Shipping Options"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:256
+msgid "Shipping Method Type"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:260
+#: includes/class-wwpp-settings.php:658
+msgid "Force Free Shipping"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:261
+msgid "Specify Shipping Methods"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:267
+msgid "Hide Selected Shipping Methods (Zoned and Non Zoned) From Others"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:272
+msgid "Hide from non wholesale users"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:273
+msgid "Hide from all other users (wholesale and non wholesale)"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:279
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:93
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:105
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:39
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:61
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:84
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:129
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:134
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:139
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:156
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:161
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:166
+msgid "Shipping Zone"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:287
+#: includes/class-wwpp-script-loader.php:533
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:94
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:106
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:25
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:125
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:152
+msgid "Shipping Method"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:288
+#: includes/class-wwpp-per-wholesale-user-settings.php:494
+msgid "Please Select Shipping Method..."
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:296
+msgid "Specify Non Zoned Shipping Methods"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:307
+msgid "Non Zoned Shipping Methods"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:308
+msgid "Please Select Unzone Shipping Method"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:316
+#: includes/class-wwpp-per-wholesale-user-settings.php:321
+msgid "Override Payment Gateway Options"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:332
+#: includes/class-wwpp-settings.php:829
+msgid "Payment Gateway Options"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:333
+msgid "Please Select Payment Gateways..."
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:341
+msgid "Override Payment Gateway Surcharge"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:345
+msgid "Use general wholesale role payment gateway surcharge"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:346
+msgid "Do not use general wholesale role payment gateway surcharge"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:347
+msgid "Specify payment gateway surcharge"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:495
+msgid "Failed to get shipping methods for the selected shipping zone"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:507
+#: includes/class-wwpp-script-loader.php:617
+#: includes/class-wwpp-script-loader.php:641
+#: includes/class-wwpp-script-loader.php:814
+msgid "Please specify wholesale role"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:508
+#: includes/class-wwpp-script-loader.php:618
+#: includes/class-wwpp-script-loader.php:817
+msgid "Invalid start quantity"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:509
+#: includes/class-wwpp-script-loader.php:619
+#: includes/class-wwpp-script-loader.php:818
+msgid "Invalid end quantity"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:510
+#: includes/class-wwpp-script-loader.php:620
+#: includes/class-wwpp-script-loader.php:819
+msgid "Invalid percent discount"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:511
+#: includes/class-wwpp-per-wholesale-user-settings.php:532
+#: includes/class-wwpp-script-loader.php:391
+#: includes/class-wwpp-script-loader.php:478
+#: includes/class-wwpp-script-loader.php:500
+#: includes/class-wwpp-script-loader.php:536
+#: includes/class-wwpp-script-loader.php:595
+#: includes/class-wwpp-script-loader.php:621
+#: includes/class-wwpp-script-loader.php:646
+#: includes/class-wwpp-script-loader.php:695
+#: includes/class-wwpp-script-loader.php:717
+msgid "Form Error"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:512
+#: includes/class-wwpp-per-wholesale-user-settings.php:536
+#: includes/class-wwpp-script-loader.php:387
+#: includes/class-wwpp-script-loader.php:479
+#: includes/class-wwpp-script-loader.php:499
+#: includes/class-wwpp-script-loader.php:542
+#: includes/class-wwpp-script-loader.php:559
+#: includes/class-wwpp-script-loader.php:602
+#: includes/class-wwpp-script-loader.php:622
+#: includes/class-wwpp-script-loader.php:652
+#: includes/class-wwpp-script-loader.php:699
+#: includes/class-wwpp-script-loader.php:723
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:139
+#: views/plugin-settings-custom-fields/view-wwpp-discount-controls-custom-field.php:86
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:114
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:171
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:211
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:246
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-payment-gateway-controls-custom-field.php:120
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-class-options-mapping-controls-custom-field.php:98
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-options-mapping-controls-custom-field.php:99
+msgid "No Mappings Found"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:513
+#: includes/class-wwpp-script-loader.php:623
+msgid "Add Mapping Error"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:514
+#: includes/class-wwpp-script-loader.php:624
+msgid "Failed to record new mapping entry"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:515
+#: includes/class-wwpp-script-loader.php:625
+msgid "Clicking OK will remove the current wholesale role/discount mapping"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:516
+#: includes/class-wwpp-script-loader.php:626
+msgid "Delete Mapping Error"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:517
+#: includes/class-wwpp-script-loader.php:503
+#: includes/class-wwpp-script-loader.php:627
+msgid "Failed to delete specified mapping entry"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:518
+#: includes/class-wwpp-script-loader.php:628
+msgid "Edit Mapping Error"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:519
+#: includes/class-wwpp-script-loader.php:629
+msgid "Failed to edit mapping entry"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:528
+#: includes/class-wwpp-script-loader.php:691
+msgid "Please specify values for the following field/s"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:529
+#: includes/class-wwpp-script-loader.php:692
+msgid "Successfully Added Payment Gateway Surcharge Mapping"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:530
+#: includes/class-wwpp-script-loader.php:693
+msgid "Failed To Add New Payment Gateway Surcharge Mapping"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:531
+#: includes/class-wwpp-script-loader.php:389
+#: includes/class-wwpp-script-loader.php:477
+#: includes/class-wwpp-script-loader.php:535
+#: includes/class-wwpp-script-loader.php:694
+msgid "Please specify values for the following field/s:"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:533
+#: includes/class-wwpp-script-loader.php:696
+msgid "Successfully Updated Payment Gateway Surcharge Mapping"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:534
+#: includes/class-wwpp-script-loader.php:697
+msgid "Failed To Update Payment Gateway Surcharge Mapping"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:535
+#: includes/class-wwpp-script-loader.php:698
+msgid "Clicking OK will remove the current payment gateway surcharge mapping"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:537
+#: includes/class-wwpp-script-loader.php:700
+msgid "Successfully Deleted Payment Gateway Surcharge Mapping"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:538
+#: includes/class-wwpp-script-loader.php:701
+msgid "Failed To Delete Payment Gateway Surcharge Mapping"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:566
+#: includes/class-wwpp-settings.php:1197
+msgid "Percentage"
+msgstr ""
+
+#: includes/class-wwpp-per-wholesale-user-settings.php:588
+msgid "Sorry, you are not allowed to edit this user."
+msgstr ""
+
+#: includes/class-wwpp-product-visibility.php:599
+msgid "Restrict To Wholesale Roles"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:160
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:65
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:74
+msgid "Edit"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:161
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:77
+msgid "Delete"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:174
+msgid "Please Enter Role Name"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:175
+msgid "Error in Wholesale Form"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:176
+msgid "Please Enter Role Key"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:177
+msgid "Role Key must contain only letters, numbers, hyphens, and underscores"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:178
+msgid "Wholesale Role Successfully Added"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:179
+msgid "Successfully Added New Role"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:180
+msgid "Failed to Add New Wholesale Role"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:181
+msgid "Wholesale Role Successfully Edited"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:182
+msgid "Successfully Edited Role"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:183
+msgid "Failed to Edit Wholesale Role"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:184
+msgid "Wholesale Role Successfully Deleted"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:185
+msgid "Successfully Deleted Role"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:186
+msgid "Failed to Delete Wholesale Role"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:229
+msgid "Enter a value (leave blank to remove wholesale sale price)"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:230
+msgid "Enter a value (leave blank to remove min order quantity)"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:231
+msgid "Enter a value (leave blank to remove order quantity step)"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:253
+msgid "Failed to enable Product Quantity Based Wholesale Pricing options."
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:254
+msgid "Failed to disable Product Quantity Based Wholesale Pricing options."
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:255
+msgid "The following fields are not properly filled:"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:256
+#: includes/class-wwpp-script-loader.php:554
+#: includes/class-wwpp-script-loader.php:821
+msgid "Please fill the form properly"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:258
+msgid "Successfully Added Quantity Discount Rule Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:259
+msgid "Failed To Add Quantity Discount Rule Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:260
+msgid "Successfully Updated Quantity Discount Rule Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:261
+msgid "Clicking OK will remove the current quantity discount rule mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:263
+msgid "Successfully Deleted Quantity Discount Rule Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:264
+msgid "Failed to Delete Quantity Discount Rule Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:266
+msgid "Failed To Update Quantity Discount Rule Mapping"
+msgstr ""
+
+#. Translators: $1 is Currency symbol
+#: includes/class-wwpp-script-loader.php:268
+msgid "Wholesale Price %1$s"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:269
+msgid "Wholesale Price (%)"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:270
+msgid "Discount % is the only allowed price type of variable level quantity discount."
+msgstr ""
+
+#. Translators: $1 is wholesale role name
+#: includes/class-wwpp-script-loader.php:277
+msgid "The product's wholesale price for \"%1$s\" role has not been set. This quantity based price mapping will be added, but it will not take effect until a price is entered for the \"%1$s\" role."
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:298
+msgid "The wholesale price value can not be empty."
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:299
+msgid "The wholesale discount value can not be empty."
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:300
+msgid "Please enter in a value less than the wholesale price."
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:301
+msgid "Please enter in a value not greater than 100 percent."
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:302
+msgid "Please enter in a value not less than 0 percent"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:336
+msgid "Failed To Save Wholesale Prices License Details"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:383
+msgid "Wholesale Role:"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:384
+msgid "Minimum Order Quantity:"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:388
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:26
+#: views/plugin-settings-custom-fields/view-wwpp-discount-controls-custom-field.php:10
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:10
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:18
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:14
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-payment-gateway-controls-custom-field.php:14
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-class-options-mapping-controls-custom-field.php:8
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-options-mapping-controls-custom-field.php:12
+msgid "Choose wholesale role..."
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:390
+msgid "Value must be greater than or equal to 0"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:392
+msgid "Successfully Added Wholesale Role Order Requirement Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:393
+msgid "Failed To Add New Wholesale Role Order Requirement Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:394
+msgid "Successfully Updated Wholesale Role Order Requirement Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:395
+msgid "Failed To Update Wholesale Role Order Requirement Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:396
+msgid "Clicking OK will remove the current wholesale role order requirement mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:397
+msgid "Successfully Deleted Wholesale Role Order Requirement Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:398
+msgid "Failed To Delete Wholesale Role Order Requirement Mapping"
+msgstr ""
+
+#. Translators: $1 is WooCommerce currency symbol
+#: includes/class-wwpp-script-loader.php:400
+msgid "Minimum Sub-total Amount (%1$s):"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:401
+msgid "Minimum Order Logic:"
+msgstr ""
+
+#. Translators: $1 is WooCommerce currency symbol
+#: includes/class-wwpp-script-loader.php:403
+msgid "Minimum Sub-total Amount (%1$s)"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:408
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:67
+#: views/plugin-settings-custom-fields/view-wwpp-discount-controls-custom-field.php:34
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:51
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:79
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:113
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-payment-gateway-controls-custom-field.php:46
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-class-options-mapping-controls-custom-field.php:41
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-options-mapping-controls-custom-field.php:38
+msgid "Save Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:409
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:69
+#: views/plugin-settings-custom-fields/view-wwpp-discount-controls-custom-field.php:35
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:53
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:80
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:114
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-payment-gateway-controls-custom-field.php:47
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-class-options-mapping-controls-custom-field.php:42
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-options-mapping-controls-custom-field.php:39
+msgid "Add Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:410
+msgid "Add New Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:434
+msgid "What Pages to Show the Saving Text"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:435
+msgid "Shop Page"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:436
+msgid "Single Product Page"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:437
+msgid "Cart/Checkout/Order Page"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:438
+msgid "Email Invoice"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:439
+msgid "List of Tags Available"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:440
+msgid "Show saved amount"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:441
+msgid "Show saved percentage"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:442
+msgid "Wholesale Saving Amount Text"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:449
+msgid "The text to be shown on the defined pages. Default is 'You are saving {saved_amount} ({saved_percentage}) off RRP on this order'"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:480
+msgid "Successfully Added Wholesale Role Tax Option Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:481
+msgid "Failed To Add New Wholesale Role Tax Option Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:482
+msgid "Successfully Updated Wholesale Role Tax Option Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:483
+msgid "Failed To Update Wholesale Role Tax Option Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:484
+msgid "Clicking OK will remove the current wholesale role tax option mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:485
+msgid "Successfully Deleted Wholesale Role Tax Option Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:486
+msgid "Failed To Delete Wholesale Role Tax Option Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:497
+msgid "Please specify a wholesale role"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:498
+msgid "Please specify tax class"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:501
+msgid "Failed to save mapping entry"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:502
+msgid "Clicking OK will remove the current selected mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:534
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:49
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:130
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:157
+msgid "Shipping Zone Method"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:537
+msgid "Successfully Added Role/Shipping Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:538
+msgid "Failed To Add New Role/Shipping Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:539
+msgid "Successfully Updated Role/Shipping Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:540
+msgid "Failed To Update Role/Shipping Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:541
+msgid "Clicking OK will remove the current role/shipping mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:543
+msgid "Successfully Deleted Role/Shipping Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:544
+msgid "Failed To Delete Role/Shipping Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:545
+msgid "Failed To Retrieve Table Rate Shipping Zone Methods"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:546
+msgid "Failed To Retrieve Shipping Zone Table Rates"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:547
+msgid "Failed To Retrieve Table Rate Shipping Zones"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:548
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:65
+msgid "--Select Shipping Zone Method--"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:549
+msgid "Failed to retrieve shipping zone methods"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:550
+msgid "Empty wholesale role"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:551
+msgid "Empty non-zoned shipping method"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:552
+msgid "Empty shipping zone"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:553
+msgid "Empty shipping method"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:555
+msgid "Successfully added new wholesale / shipping mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:556
+msgid "Failed to add new wholesale / shipping mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:557
+msgid "Successfully edited wholesale / shipping mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:558
+msgid "Failed to edit wholesale / shipping mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:560
+msgid "Successfully deleted wholesale / shipping zone mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:561
+msgid "Failed to delete wholesale / shipping zone mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:594
+msgid "Please Specify Wholesale Role"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:596
+msgid "Please Input Discount Properly"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:597
+msgid "Successfully Added Role/Discount Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:598
+msgid "Failed To Add New Role/Discount Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:599
+msgid "Successfully Updated Role/Discount Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:600
+msgid "Failed To Update Role/Discount Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:601
+msgid "Clicking OK will remove the current role/discount mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:603
+msgid "Successfully Deleted Role/Discount Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:604
+msgid "Failed To Delete Role/Discount Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:642
+msgid "Invalid cart subtotal price"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:643
+msgid "Invalid discount type"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:644
+msgid "Invalid discount amount"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:645
+msgid "Invalid discount title"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:647
+msgid "Successfully Added Subtotal Price Discount Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:648
+msgid "Successfully Updated Subtotal Price Discount Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:649
+msgid "Successfully Deleted Subtotal Price Discount Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:650
+#: includes/class-wwpp-script-loader.php:653
+msgid "Clicking OK will remove the current Subtotal Price Discount mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:651
+msgid "Failed To Delete Subtotal Price Discount Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:655
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:14
+#: views/plugin-settings-custom-fields/view-wwpp-discount-controls-custom-field.php:21
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:38
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:66
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:76
+msgid "Percent Discount"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:656
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:15
+msgid "Fixed Discount"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:716
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-payment-gateway-controls-custom-field.php:58
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-payment-gateway-controls-custom-field.php:65
+msgid "Payment Gateways"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:718
+msgid "Successfully Added Wholesale Role / Payment Gateway Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:719
+msgid "Failed To Add New Wholesale Role / Payment Gateway Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:720
+msgid "Successfully Updated Wholesale Role / Payment Gateway Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:721
+msgid "Failed To Update Wholesale Role / Payment Gateway Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:722
+msgid "Clicking OK will remove the current wholesale role / payment gateway mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:724
+msgid "Successfully Deleted Wholesale Role / Payment Gateway Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:725
+msgid "Failed to Delete Wholesale Role / Payment Gateway Mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:744
+msgid "Failed to clear variable product price range cache"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:746
+msgid "Failed to clear products transient cache"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:747
+msgid "Are you sure want to clear the cache?"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:772
+msgid "Visibility Meta Successfully Initialized"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:773
+msgid "Failed To Initialize Visibility Meta"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:774
+msgid "Successfully cleared unused product meta."
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:775
+msgid "Failed to clear unused product meta."
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:776
+msgid "Successfully re-fetched plugin update data"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:777
+msgid "Failed to re-fetch plugin update data"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:811
+msgid "Fail to enable quantity based wholesale discount"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:812
+msgid "Fail to enable quantity based wholesale discount mode 2"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:813
+msgid "Fail to disable quantity based wholesale discount"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:815
+msgid "Please specify start quantity"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:816
+msgid "Please specify wholesale discount"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:820
+msgid "Please specify the index of the entry you want to edit"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:822
+msgid "New wholesale discount mapping added successfully"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:823
+msgid "Failed to add new wholesale discount mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:824
+msgid "Wholesale discount mapping edited successfully"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:825
+msgid "Failed to edit new wholesale discount mapping"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:826
+msgid "Are you sure to remove this wholesale discount mapping?"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:828
+msgid "Wholesale discount mapping deleted successfully"
+msgstr ""
+
+#: includes/class-wwpp-script-loader.php:829
+msgid "Failed to delete wholesale discount mapping"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:96
+#: includes/class-wwpp-wholesale-prices.php:274
+#: includes/wholesale-prices/class-wwpp-wholesale-price-product-category.php:304
+#: includes/wholesale-prices/class-wwpp-wholesale-price-wholesale-role.php:223
+msgid "Price"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:97
+msgid "Tax"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:98
+msgid "Shipping"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:99
+msgid "Discount"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:100
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:399
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:29
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:101
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:113
+msgid "Payment Gateway"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:101
+msgid "Cache"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:102
+msgid "Help"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:105
+msgid "Upgrade"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:236
+msgid "Order Requirements"
+msgstr ""
+
+#. translators: %s: link to kb article.
+#: includes/class-wwpp-settings.php:239
+msgid "These settings describe the Minimum Order Requirements to ensure that your wholesale customers will not activate wholesale pricing if they don’t meet the requirements yet. Until they meet the requirements, they will see regular prices in the cart along with a notice to tell them how much they need to add before they will activate wholesale pricing. <a href=\"%s\" target=\"_blank\">Read more about how this works here</a>."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:244
+msgid "Default Minimum Order Quantity"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:249
+msgid "Define a minimum number of items that wholesale customers must reach in the cart before they activate wholesale pricing."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:250
+#: includes/class-wwpp-settings.php:263
+msgid "Leave as 0 or blank to disable this setting."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:256
+msgid "Default Minimum Order Subtotal"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:262
+msgid "Define a minimum subtotal that wholesale customers must reach before they activate wholesale pricing for items in their cart."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:269
+msgid "Minimum Order Requirement Satisfaction"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:271
+msgid "Should the customer satisfy both or just one of the minimum order rules?"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:272
+msgid "If one of the above default minimum order settings is disabled, this setting will be ignored."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:275
+msgid "Require Quantity AND Subtotal"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:276
+msgid "Require Quantity OR Subtotal"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:282
+msgid "Wholesale Role Specific Minimum Requirements"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:284
+msgid "Override the default minimum order rules per wholesale role. This lets you apply different minimum order requirements based on the customer’s user role."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:285
+msgid "You only need to define a mapping for the roles you wish to override, all other roles will use the default minimum order requirements above."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:295
+msgid "Wholesale Products"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:297
+msgid "These settings generally affect the way wholesale products are shown and priced."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:302
+msgid "Only Show Wholesale Products To Wholesale Customers"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:304
+msgid "Products without wholesale pricing will be hidden from wholesale customers."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:305
+msgid "This setting only affects wholesale customers."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:310
+msgid "Multiple Category Discount Priority"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:312
+msgid "When a product belongs to two categories that both have discounts, which category discount should it get?"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:313
+msgid "This only applies when the wholesale price is being derived from the category level % discount."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:316
+msgid "Highest Discount Available"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:317
+msgid "Lowest Discount Available"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:323
+msgid "Hide Quantity Discount Tables"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:325
+msgid "Even if a product has a quantity based discount, do not show the quantity discount table."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:326
+msgid "By default, a table describing the quantity based discounts is shown to wholesale customers."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:331
+msgid "Hide Category Product Count"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:333
+msgid "On the shop page and product category archives, do not show the product count in the category name. This can speed up performance on those pages."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:334
+msgid "Determining the product count is an expensive operation due to having to take product visibility into account, hiding the count stops the system from calculating it."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:339
+msgid "Enforce Min/Step On Cart"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:341
+msgid "Ensure that cart item quantity boxes on the cart page also respect the minimum and step settings of the product."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:346
+msgid "Wholesale Stock Display Format"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:348
+msgid "Override the stock display format for wholesale users."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:351
+#: includes/class-wwpp-settings.php:547
+#: includes/class-wwpp-settings.php:561
+msgid "--Use woocommerce default--"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:352
+msgid "Always show quantity remaining in stock e.g. \"12 in stock\""
+msgstr ""
+
+#: includes/class-wwpp-settings.php:353
+msgid "Only show quantity remaining in stock when low e.g. \"Only 2 left in stock\""
+msgstr ""
+
+#: includes/class-wwpp-settings.php:354
+msgid "Never show quantity remaining in stock"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:360
+msgid "Prevent Stock Reduction"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:362
+msgid "Don’t reduce stock count on products for wholesale orders."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:367
+msgid "Allow Add To Cart Below Product Minimum"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:369
+msgid "Lets customers add quantity lower than the specified minimum amount."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:379
+msgid "Wholesale Customer Capabilities"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:381
+msgid "These settings describe some of the additional capabilities of your wholesale customers."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:386
+msgid "Disable Coupons For Wholesale Users"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:388
+msgid "Globally turn off coupons functionality for customers with a wholesale user role."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:389
+msgid "This applies to all customers with a wholesale role."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:395
+msgid "Always Allow Backorders"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:397
+msgid "Even if backorders are disallowed on the product, still allow wholesale customers to make a backorder."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:398
+msgid "This overrides the defined backorder behavior for the product for all customers with a wholesale role."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:403
+msgid "Show Backorders Notice When Allowed"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:405
+msgid "If backorders are allowed for wholesale customers (as per Always Allow Backorders setting), notify the customer that the product is \"Available on backorder\"."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:406
+msgid "Shows the standard \"Available on backorder\" notice from WooCommerce. This setting is ignored when \"Always Allow Backorders\" is off."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:416
+msgid "Misc"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:418
+msgid "These settings handle other miscellaneous parts of the way your wholesale system works."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:423
+msgid "Wholesale Order Received Thank You Message"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:425
+msgid "Show wholesale customers a thank you message with important information on the Order Received screen."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:426
+msgid "This message is only shown on the Order Received screen."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:432
+msgid "Wholesale Order Received Thank You Message Position"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:434
+msgid "Choose to whether to replace the standard thank you message from WooCommerce, prepend or append the message on the Order Received screen."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:435
+msgid "The standard WooCommerce thank you message is \"Thank you. Your order has been received.\""
+msgstr ""
+
+#: includes/class-wwpp-settings.php:438
+msgid "Replace"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:439
+msgid "Append"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:440
+msgid "Prepend"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:446
+msgid "Clear Cart On Login"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:448
+msgid "Clears the wholesale customer’s shopping after they log in to ensure a fresh session."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:449
+msgid "This can help if you are having issues with old orders being retained in the cart."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:474
+msgid "Show Wholesale Saving Amount"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:476
+msgid "If checked, displays the saving amount and percentage of retail price on the shop page, single product page, cart page, checkout page, order page and email invoice."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:483
+msgid "Always Use Regular Price"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:485
+msgid "When calculating the wholesale price by using a percentage (global discount % or category based %) always ensure the Regular Price is used and ignore the Sale Price if present."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:490
+msgid "Variable product price display"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:492
+msgid "Specify the format in which variable product prices are displayed. Only for wholesale customers."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:496
+msgid "Price Range"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:497
+msgid "Minimum Price"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:498
+msgid "Maximum Price"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:503
+msgid "Hide wholesale price on admin product listing"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:505
+msgid "If checked, hides wholesale price per wholesale role on the product listing on the admin page."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:526
+msgid "Tax Options"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:535
+msgid "Do not apply tax to all wholesale roles"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:536
+msgid "Removes tax for all wholesale roles. All wholesale prices will display excluding tax throughout the store, cart and checkout. The display settings below will be ignored."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:541
+msgid "Display Prices in the Shop"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:543
+msgid "Choose how wholesale roles see all prices throughout your shop pages."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:544
+msgid "Note: If the option above of \"Tax Exempting\" wholesale users is enabled, then wholesale prices on shop pages will not include tax regardless the value of this option."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:548
+#: includes/class-wwpp-settings.php:562
+msgid "Including tax"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:549
+#: includes/class-wwpp-settings.php:563
+msgid "Excluding tax"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:555
+msgid "Display Prices During Cart and Checkout"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:557
+msgid "Choose how wholesale roles see all prices on the cart and checkout pages."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:558
+msgid "Note: If the option above of \"Tax Exempting\" wholesale users is enabled, then wholesale prices on cart and checkout page will not include tax regardless the value of this option."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:569
+msgid "Override Regular Price Suffix"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:571
+msgid "Override the price suffix on regular prices for wholesale users."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:572
+#: includes/class-wwpp-settings.php:580
+msgid "Make this blank to use the default price suffix. You can also use prices substituted here using one of the following {price_including_tax} and {price_excluding_tax}."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:577
+msgid "Wholesale Price Suffix"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:579
+msgid "Set a specific price suffix specifically for wholesale prices."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:590
+msgid "Wholesale Role / Tax Exemption Mapping"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:592
+msgid "Specify tax exemption per wholesale role. Overrides general <b>\"Tax Exemption\"</b> option above."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:609
+msgid "Wholesale Role / Tax Class Mapping"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:611
+msgid "Specify tax classes per wholesale role."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:616
+msgid "Wholesale Only Tax Classes"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:618
+msgid "Hide the mapped tax classes from non-wholesale customers. Non-wholesale customers will no longer be able to see the tax classes you have mapped below. Warning: If a product uses one of the mapped tax classes, customers whose roles are not included on the mapping below (including guest users) will be taxed using the standard tax class."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:651
+msgid "Shipping Options"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:660
+msgid "Forces all wholesale roles to use free shipping. All other shipping methods will be removed."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:661
+msgid "Note: If a wholesale role has ANY mappings in the table below, free shipping will not be forced."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:666
+msgid "Free Shipping Label"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:668
+msgid "If <b>\"Force Free Shipping\"</b> is enabled, a dynamically created free shipping method is created and used by force. The label for this defaults to <b>\"Free Shipping\"</b> but you can override that here."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:673
+msgid "Wholesale Only Shipping Methods"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:675
+msgid "Hide the mapped shipping methods from non-wholesale customers. Regular customers will no longer be able to see the shipping methods you have mapped below."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:685
+msgid "Wholesale Role/Shipping Method Mapping"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:687
+msgid ""
+"Map the shipping methods you wish to restrict wholesale customers to use within a shipping zone.<br/><br/>\n"
+"                                     <b>1.</b> Select the wholesale role you wish to restrict<br/>\n"
+"                                     <b>2.</b> Choose the shipping zone you want this to apply to<br/>\n"
+"                                     <b>3.</b> Finally, choose the shipping method in that shipping zone that you wish to restrict the selected wholesale role to.<br/><br/>\n"
+"                                     You can repeat this process to map multiple shipping methods per zone & multiple zones per role.\n"
+"                                     <h2>Non-Zoned Shipping Methods</h2>\n"
+"                                     <p>Non-Zoned shipping methods covers third party shipping methods extensions that register their shipping methods globally meaning they appear to the user always and do not take the shipping zone into account at all.<br/><br/></p>\n"
+"                                     <p>To map these non-zoned methods, please select the <b>\"Use Non-Zoned Shipping Methods\"</b> checkbox and select the method from the list.</p>"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:730
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:382
+msgid "General Discount Options"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:732
+msgid "This is where you set <b>\"general discount\"</b> for each wholesale role that will be applied to those users<br/>if a product they wish to purchase has no wholesale price set and no wholesale discount set at the product category level."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:749
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:390
+msgid "General Quantity Based Discounts"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:751
+msgid "Give an additional quantity based discount when using the global General Discount for that wholesale role."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:756
+msgid "Enable General Quantity Based Discounts"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:758
+msgid "Turns the general quantity based discount system on/off. Mappings below will be disregarded if this option is unchecked."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:765
+msgid "By default, the general quantity based discounts system will use the total quantity of all items in the cart. This option changes this to apply quantity based discounts based on the quantity of individual products in the cart."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:782
+msgid "Cart Subtotal Price Discounts"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:784
+msgid ""
+"Optionally give an additional discount for specific wholesale roles based on the cart subtotal price (excluding taxes & shipping). Discounts are shown in the totals table and are applied to the entire order.<br/><br/>\n"
+"                                Simply select a wholesale user role, the subtotal price at which the additional discount should start to apply to their order, and the discount amount to give either as a fixed amount or a percentage of the cart subtotal.<br/><br/>\n"
+"                                You can tier additional discounts by adding extra subtotal price breakpoints. Only one discount will apply."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:794
+msgid "Only Apply Discounts If Minimum Order Requirements Met"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:796
+msgid "When enabled, prevents the customer from getting the below additional discounts if they haven’t met the minimum order requirements."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:841
+msgid "Wholesale Role / Payment Gateway"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:843
+msgid "You can specify what payment gateways are available per wholesale role (Note that payment gateway need not be enabled)"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:860
+msgid "Wholesale Role / Payment Gateway Surcharge"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:862
+msgid "You can specify extra cost per payment gateway per wholesale role"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:894
+msgid "Cache Options"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:901
+msgid "Enable wholesale price caching"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:903
+msgid "When enabled, products with wholesale price will be cached to improve loading time when the product has multiple tier of wholesale prices."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:908
+msgid "Enable variable product price range caching"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:910
+msgid "When enabled, wholesale price ranges for variable products will be cached by the system. This speeds up the loading of your category pages and single product pages."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:915
+msgid "Clear all variable product price range and wholesale price cache"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:917
+msgid "Clear all variable product price range and wholesale price cache."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:922
+msgid "Enable product ID caching"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:924
+msgid "When enabled, product IDs will be cached for visibility purposes for each user role to reduce the load time for large product catalogs."
+msgstr ""
+
+#: includes/class-wwpp-settings.php:957
+msgid "Help Options"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:976
+msgid "Debug Tools"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:997
+msgid "Clean up plugin options on un-installation"
+msgstr ""
+
+#: includes/class-wwpp-settings.php:999
+msgid "If checked, removes all plugin options when this plugin is uninstalled. <b>Warning:</b> This process is irreversible."
+msgstr ""
+
+#: includes/class-wwpp-wc-order.php:142
+msgid "Order Type"
+msgstr ""
+
+#: includes/class-wwpp-wc-order.php:169
+msgid "Retail"
+msgstr ""
+
+#. translators: %1$s: Wholesale role name
+#: includes/class-wwpp-wc-order.php:175
+msgid "Wholesale ( %1$s )"
+msgstr ""
+
+#: includes/class-wwpp-wc-order.php:257
+msgid "All Wholesale Orders"
+msgstr ""
+
+#: includes/class-wwpp-wc-order.php:258
+msgid "All Retail Orders"
+msgstr ""
+
+#: includes/class-wwpp-wc-order.php:259
+msgid "Show all order types"
+msgstr ""
+
+#. translators: %1$s Minimum order quantity
+#: includes/class-wwpp-wholesale-price-requirement.php:142
+msgid "Min: %1$s of any variation combination"
+msgstr ""
+
+#. translators: %1$s Minimum order quantity
+#: includes/class-wwpp-wholesale-price-requirement.php:145
+#: includes/class-wwpp-wholesale-price-requirement.php:480
+msgid "Min: %1$s"
+msgstr ""
+
+#. translators: %1$s Order quantity step
+#: includes/class-wwpp-wholesale-price-requirement.php:152
+#: includes/class-wwpp-wholesale-price-requirement.php:155
+#: includes/class-wwpp-wholesale-price-requirement.php:506
+msgid "Increments of %1$s"
+msgstr ""
+
+#. translators: %1$s Minimum order quantity, %2$s Product title, %3$s Formatted wholesale price
+#. translators: %1$s Minimum order quantity, %2$s Variable product and variation name, %3$s Formatted wholesale price
+#: includes/class-wwpp-wholesale-price-requirement.php:631
+#: includes/class-wwpp-wholesale-price-requirement.php:724
+msgid "<span class=\"wwpp-notice\"></span>You did not meet the minimum order quantity <b>(%1$s items)</b> of the product <b>%2$s</b> to activate wholesale pricing <b>(%3$s)</b>. Please increase quantities to the cart to activate adjusted pricing."
+msgstr ""
+
+#. translators: %1$s Minimum order quantity, %2$s Order quantity step, %3$s Product title, %4$s Formatted wholesale price
+#. translators: %1$s Minimum order quantity, %2$s Order quantity step, %3$s Variable product and variation name, %4$s Formatted wholesale price
+#: includes/class-wwpp-wholesale-price-requirement.php:646
+#: includes/class-wwpp-wholesale-price-requirement.php:731
+msgid "<span class=\"wwpp-notice\"></span>You did not meet the correct order quantity, <b>minimum of %1$s</b> and <b>increments of %2$s</b> of the product <b>%3$s</b> to activate wholesale pricing <b>(%4$s)</b> . Please correct quantities to the cart to activate adjusted pricing."
+msgstr ""
+
+#. translators: %1$s Minimum order quantity, %2$s Product title, %3$s Formatted wholesale price, %4$s Variable attribute
+#: includes/class-wwpp-wholesale-price-requirement.php:710
+msgid "<span class=\"wwpp-notice\"></span>You did not meet the minimum order quantity <b>(%1$s items of any variation)</b> of the product <b>%2$s</b> to activate wholesale pricing <b>(%3$s)</b> for the variation <b>%4$s</b>. Please increase quantities to the cart to activate adjusted pricing."
+msgstr ""
+
+#. translators: %1$s Minimum order quantity, %2$s Order quantity step, %3$s Product title, %4$s Formatted wholesale price, %5$s Variable attribute
+#: includes/class-wwpp-wholesale-price-requirement.php:717
+msgid "<span class=\"wwpp-notice\"></span>You did not meet the correct order quantity, <b>minimum of %1$s</b> and <b>increments of %2$s</b> of the any combination of variations of the product <b>%3$s</b> to activate wholesale pricing <b>(%4$s)</b> for the variation <b>%5$s</b>. Please increase quantities to the cart to activate adjusted pricing."
+msgstr ""
+
+#: includes/class-wwpp-wholesale-price-requirement.php:813
+#: includes/class-wwpp-wholesale-price-requirement.php:832
+msgid "<h4>Please adjust your cart to meet all of the wholesale requirements in order to proceed.</h4>"
+msgstr ""
+
+#. translators: %1$s Product name
+#: includes/class-wwpp-wholesale-price-requirement.php:924
+msgid "You cannot add \"%s\" to cart because the quantity is lower than the specified wholesale minimum amount."
+msgstr ""
+
+#: includes/class-wwpp-wholesale-price-requirement.php:1016
+msgid "Stock not sufficient"
+msgstr ""
+
+#: includes/class-wwpp-wholesale-prices.php:268
+#: includes/wholesale-prices/class-wwpp-wholesale-price-product-category.php:386
+#: includes/wholesale-prices/class-wwpp-wholesale-price-wholesale-role.php:309
+#: includes/wholesale-prices/class-wwpp-wholesale-price-wholesale-role.php:318
+msgid "Quantity based discounts available based on how many of this variation is in your cart."
+msgstr ""
+
+#: includes/class-wwpp-wholesale-prices.php:268
+#: includes/wholesale-prices/class-wwpp-wholesale-price-product-category.php:386
+#: includes/wholesale-prices/class-wwpp-wholesale-price-wholesale-role.php:309
+#: includes/wholesale-prices/class-wwpp-wholesale-price-wholesale-role.php:318
+msgid "Quantity based discounts available based on how many of this product is in your cart."
+msgstr ""
+
+#: includes/class-wwpp-wholesale-prices.php:273
+#: includes/wholesale-prices/class-wwpp-wholesale-price-product-category.php:303
+#: includes/wholesale-prices/class-wwpp-wholesale-price-wholesale-role.php:222
+msgid "Qty"
+msgstr ""
+
+#: includes/class-wwpp-wholesale-prices.php:275
+#: includes/wholesale-prices/class-wwpp-wholesale-price-product-category.php:305
+#: includes/wholesale-prices/class-wwpp-wholesale-price-wholesale-role.php:224
+msgid "Save"
+msgstr ""
+
+#: includes/class-wwpp-wholesale-prices.php:906
+#: includes/class-wwpp-wholesale-prices.php:2178
+#: includes/plugin-integrations/woocommerce-product-bundles/class-wwpp-wc-product-bundles.php:1526
+msgid "Wholesale Price:"
+msgstr ""
+
+#: includes/class-wwpp-wholesale-prices.php:2153
+msgid "Price adjustment not applied due to minimum requirement rule. Please check notices above."
+msgstr ""
+
+#: includes/class-wwpp-wws-license-manager.php:168
+msgid "Failed to activate license. Failed to connect to activation access point. Please contact plugin support."
+msgstr ""
+
+#: includes/class-wwpp-wws-license-manager.php:185
+msgid "Failed to activate license. Activation access point returned invalid response. Please contact plugin support."
+msgstr ""
+
+#. Translators: %1$s is <a> tag html, %2$s is closing </a>, %3$s is opening <b> tag, %4$s is closing </b> tag
+#: includes/class-wwpp-wws-license-manager.php:326
+msgid "Please %1$sactivate%2$s your copy of %3$sWooCommerce Wholesale Prices Premium%4$s to get the latest updates and have access to support."
+msgstr ""
+
+#: includes/plugin-integrations/woocommerce-composite-products/class-wwpp-wc-composite-product.php:257
+msgid "You do not have access to a required component <b>(%1$s)</b>. Please contact store owner."
+msgstr ""
+
+#: includes/plugin-integrations/woocommerce-composite-products/class-wwpp-wc-composite-product.php:408
+msgid "Wholesale Total Price:"
+msgstr ""
+
+#: includes/plugin-integrations/woocommerce-composite-products/class-wwpp-wc-composite-product.php:413
+msgid "Main Price:"
+msgstr ""
+
+#: includes/plugin-integrations/woocommerce-product-add-ons/class-wwpp-wc-product-add-ons.php:113
+msgid "Non-Wholesale Customer"
+msgstr ""
+
+#: includes/plugin-integrations/woocommerce-product-add-ons/class-wwpp-wc-product-add-ons.php:121
+msgid "Specify what user roles this addon is visible. Leave blank to make addon visible to all user roles."
+msgstr ""
+
+#: includes/plugin-integrations/woocommerce-product-bundles/class-wwpp-wc-product-bundles.php:873
+msgid "Wholesale Price:123"
+msgstr ""
+
+#: includes/reports/class-wwpp-report.php:103
+msgid "Sales by date"
+msgstr ""
+
+#: includes/reports/class-wwpp-report.php:109
+msgid "Sales by current wholesale customer"
+msgstr ""
+
+#: includes/reports/class-wwpp-report.php:115
+msgid "Sales by product"
+msgstr ""
+
+#: includes/reports/class-wwpp-report.php:125
+msgid "Wholesale"
+msgstr ""
+
+#: includes/wholesale-prices/class-wwpp-wholesale-price-product-category.php:388
+msgid "Quantity based discounts available based on how many items from the <b>%1$s</b> category are in your cart."
+msgstr ""
+
+#: includes/wholesale-prices/class-wwpp-wholesale-price-variable-product.php:130
+msgid " From: "
+msgstr ""
+
+#: includes/wholesale-prices/class-wwpp-wholesale-price-variable-product.php:130
+msgid " To: "
+msgstr ""
+
+#: includes/wholesale-prices/class-wwpp-wholesale-price-wholesale-role.php:311
+#: includes/wholesale-prices/class-wwpp-wholesale-price-wholesale-role.php:320
+msgid "Quantity based discounts available based on how many items are in your cart."
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:126
+msgid "Duplicate Entry, Entry Already Exists"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:186
+msgid "Entry to be edited does not exist"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:246
+msgid "Entry to be deleted does not exist"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:299
+msgid "Quantity discount rule data passed is invalid. Index of the mapping to edit not passed"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:304
+msgid "Quantity discount rule data passed is invalid. The following fields are required ( Wholesale Role / Starting Qty / Percent Discount )."
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:428
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:492
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:552
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:615
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:677
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:735
+#: includes/wholesale-roles/class-wwpp-wholesale-role-tax-option-mapping.php:274
+#: includes/wholesale-roles/class-wwpp-wholesale-role-tax-option-mapping.php:350
+msgid "Required data not supplied"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:566
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:745
+msgid "The mapping you are trying to delete does not exist"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:624
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:686
+msgid "Total price must not be less than or equal to 0."
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:631
+#: includes/wholesale-roles/class-wwpp-wholesale-role-general-discount-mapping.php:693
+msgid "Discount amount must not be less than or equal to 0."
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-order-requirement-mapping.php:109
+msgid "Duplicate Wholesale Role Order Requirement Entry, Already Exist"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-order-requirement-mapping.php:166
+msgid "Wholesale Role Order Requirement Entry You Wish To Edit Does Not Exist"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-order-requirement-mapping.php:216
+msgid "Wholesale Role Order Requirement Entry You Wish To Delete Does Not Exist"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-payment-gateway.php:466
+msgid "Wholesale role you wish to add payment gateway mapping already exist"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-payment-gateway.php:514
+msgid "Wholesale Role / Payment Gateway mapping you wish to edit does not exist on record"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-payment-gateway.php:562
+msgid "Wholesale Role / Payment Gateway mapping you wish to delete does not exist on record"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-payment-gateway.php:678
+msgid "Payment gateway surcharge mapping you wish to update does not exist on record"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-payment-gateway.php:734
+msgid "Payment gateway surcharge you want to delete does not exist on record"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-shipping-method.php:502
+msgid "The mapping you wish to add already exists"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-shipping-method.php:565
+msgid "The mapping you wish to edit does not exists"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-shipping-method.php:570
+msgid "The new mapping data you want to save duplicates with another existing mapping"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-shipping-method.php:624
+msgid "The mapping you wish to delete does not exists"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-shipping-method.php:801
+msgid "Free Shipping"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-tax-option-mapping.php:105
+msgid "Duplicate Wholesale Role Tax Option Entry, Already Exist"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-tax-option-mapping.php:156
+msgid "Wholesale Role Tax Option Entry You Wish To Edit Does Not Exist"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-tax-option-mapping.php:205
+msgid "Wholesale Role Tax Option Entry You Wish To Delete Does Not Exist"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-tax-option-mapping.php:295
+msgid "Wholesale role mapping entry already exist"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-tax-option-mapping.php:300
+msgid "Wholesale role mapping entry you are trying to edit does not exist"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-role-tax-option-mapping.php:368
+msgid "Mapping entry you are trying to delete does not exist"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:81
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:82
+msgid "Roles"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:101
+msgid "item"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:103
+msgid "items"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:166
+msgid "You can't use only numbers in a wholesale role key."
+msgstr ""
+
+#. Translators: $1 is the role key
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:184
+msgid "Wholesale Role (%1$s) already exist, make sure role key and preferably role name are unique"
+msgstr ""
+
+#. Translators: $1 is the role key
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:254
+msgid "Specified Wholesale Role (%1$s) Does not Exist"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:303
+msgid "Please remove the role first in the following settings:"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:317
+msgid "Unable to delete, role is being used."
+msgstr ""
+
+#. Translators: $1 is number of users, $2 is the role key, $3 is opening <a> tag for button link, $4 is closing <a> tag for button link
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:319
+msgid "There are %1$s user(s) who are using \"%2$s\" role. Please update the role manually to a different one first before you can delete.%3$sCheck Users%4$s"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:352
+msgid "Minimum Order Requirements / Override per wholesale role"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:359
+msgid "Tax Exemption Mapping"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:365
+msgid "Tax Class Mapping"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:373
+msgid "Shipping Method Mapping"
+msgstr ""
+
+#: includes/wholesale-roles/class-wwpp-wholesale-roles-admin-page.php:407
+msgid "Payment Gateway Surcharge"
+msgstr ""
+
+#: views/backend/product/single/view-wwpp-product-wholesale-role-visibility-filter.php:12
+msgid "Restrict To Wholesale Roles:"
+msgstr ""
+
+#: views/backend/product/single/view-wwpp-product-wholesale-role-visibility-filter.php:13
+msgid "Set this product to be visible only to specified wholesale user role/s only"
+msgstr ""
+
+#: views/backend/product/single/view-wwpp-product-wholesale-role-visibility-filter.php:40
+msgid "Wholesale Pricing Options"
+msgstr ""
+
+#: views/backend/product/single/view-wwpp-product-wholesale-role-visibility-filter.php:45
+msgid "Disregard Product Category Level Wholesale Discount"
+msgstr ""
+
+#: views/backend/product/single/view-wwpp-product-wholesale-role-visibility-filter.php:47
+msgid "When checked, it will ignore wholesale pricing set on this product's categories."
+msgstr ""
+
+#: views/backend/product/single/view-wwpp-product-wholesale-role-visibility-filter.php:54
+msgid "Disregard Wholesale Role Level Wholesale Discount"
+msgstr ""
+
+#: views/backend/product/single/view-wwpp-product-wholesale-role-visibility-filter.php:56
+msgid "When checked, it will ignore wholesale pricing set on the per wholesale role/user level."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:7
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:36
+msgid "Subtotal Price"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:8
+msgid "Discount Type"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:9
+msgid "Discount Amount"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:10
+msgid "Discount Title"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:38
+msgid "The cart subtotal price that the discount will start applying at (excluding taxes and shipping). Must be a number."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:43
+msgid "Choose discount type..."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:48
+msgid "The type of discount which the price is calculated."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:54
+msgid "Discount based off the cart subtotal price."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:55
+msgid "Discount amount off the cart subtotal price. If discount type is percentage (%), Ex. 3 percent then input 3, 30 percent then input 30, 0.3 percent then input 0.3."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-cart-subtotal-price-based-discount.php:61
+msgid "A short title to show the user for this discount. Shown on the totals table."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-clear-product-caching.php:5
+msgid "Clear product ID cache"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-clear-product-caching.php:8
+#: views/plugin-settings-custom-fields/view-wwpp-clear-var-prod-price-range-caching.php:11
+msgid "Clear Cache"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-clear-product-caching.php:10
+msgid "Clear all product ID caches for each role. Caches are automatically rebuilt when visiting the shop page or other product listings."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-clear-unused-product-meta-button-custom-field.php:5
+#: views/plugin-settings-custom-fields/view-wwpp-clear-unused-product-meta-button-custom-field.php:8
+msgid "Clear Unused Product Meta"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-clear-unused-product-meta-button-custom-field.php:9
+msgid "Option to clear product meta that isn't used. This is a result from deleting wholesale role. This is useful for import/export to have a clean product meta data."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-clear-var-prod-price-range-caching.php:8
+msgid "Clear variable product price range and wholesale price cache"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-clear-var-prod-price-range-caching.php:13
+msgid "Clear all cached wholesale variable product price ranges and the wholesale prices. Note: the cache system keeps itself up to date, so only do this if you are experiencing price range problems."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-discount-controls-custom-field.php:23
+msgid "General discount for products purchase by this wholesale role.<br/>In percent (%), Ex. 3 percent then input 3, 30 percent then input 30, 0.3 percent then input 0.3."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-discount-controls-custom-field.php:46
+#: views/plugin-settings-custom-fields/view-wwpp-discount-controls-custom-field.php:54
+msgid "General Discount"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-force-fetch-update-data-button-custom-field.php:8
+#: views/plugin-settings-custom-fields/view-wwpp-force-fetch-update-data-button-custom-field.php:11
+msgid "Refetch Plugin Update Data"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-force-fetch-update-data-button-custom-field.php:11
+msgid "Are you sure you want to refetch plugin update data?"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-force-fetch-update-data-button-custom-field.php:12
+msgid "This will refetch the plugin update data. Useful for debugging failed plugin update operations."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-general-cart-qty-based-discount-controls-custom-field.php:41
+msgid "New percentage amount off the retail price. Provide value in percent (%), Ex. 3 percent then input 3, 30 percent then input 30, 0.3 percent then input 0.3."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-help-resources-controls-custom-field.php:5
+msgid "Knowledge Base"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-help-resources-controls-custom-field.php:8
+msgid "Looking for documentation? Please see our growing <a href=\"%1$s\" target=\"_blank\">Knowledge Base</a>"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-initialize-product-visibility-meta-button-custom-field.php:5
+msgid "Product Visibility Meta"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-initialize-product-visibility-meta-button-custom-field.php:8
+msgid "Re-Initialize Product Visibility Meta"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-initialize-product-visibility-meta-button-custom-field.php:9
+msgid "Re-initialize the product visibility meta data for all simple and variable products in the system. Sometimes after product importing or manual database manipulation, the visibility meta used to determine the visibility of your products to wholesalers will be malformed. This button resets all the product visibility meta data so your product visibility options are properly respected."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:30
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-payment-gateway-controls-custom-field.php:26
+msgid "Choose payment gateway..."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:46
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:102
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:114
+msgid "Surcharge Title"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:53
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:103
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:115
+msgid "Surcharge Type"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:54
+msgid "Choose surcharge type..."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:65
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:104
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:116
+msgid "Surcharge Amount"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:67
+msgid "If surcharge type is percentage, then input amount in percent (%). Ex. 3 percent then input 3, 30 percent then input 30, 0.3 percent then input 0.3."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:73
+msgid "Taxable?"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:74
+msgid "Select an option"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:89
+msgid "Save Surcharge"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:90
+msgid "Add Surcharge"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:105
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:117
+msgid "Taxable"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-payment-gateway-surcharge-controls-custom-field.php:133
+msgid "Warning: The role <b>%1$s</b> does not exist anymore."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:13
+msgid "--Select Wholesale Role--"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:25
+msgid "Use Non-Zoned Shipping Methods"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:34
+msgid "Non-Zoned Shipping Zone Methods"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:36
+msgid "--Select Shipping Method--"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:50
+msgid "Shipping Zones"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:52
+msgid "--Select Shipping Zone--"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:63
+msgid "Shipping Zone Methods"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:95
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:107
+msgid "Non-Zoned"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:135
+msgid "Non-zoned shipping method with id of %1$s does not exist anymore"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:151
+msgid "Shipping zone with id of %1$s does not exist anymore"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field-wc-2.6.php:160
+msgid "Shipping method with instance id of %1$s does not exist anymore"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:26
+msgid "Choose shipping method..."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:40
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:62
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:85
+msgid "Choose shipping zone..."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:50
+msgid "Choose shipping zone method..."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:73
+msgid "Shipping Zone Table Rate"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:74
+msgid "Choose shipping zone table rate..."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:86
+msgid "Default Zone (everywhere else)"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:94
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:140
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:167
+msgid "Shipping Service"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:95
+msgid "Choose shipping service..."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:135
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:162
+msgid "Shipping Table Rates"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:144
+#: views/plugin-settings-custom-fields/view-wwpp-shipping-controls-custom-field.php:171
+msgid "Shipping Class"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:12
+msgid "Other Plugins In The Wholesale Suite Family"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:13
+msgid ""
+"Everything you need to sell to wholesale customers in WooCommerce.<br/>\n"
+"            Use these other products in the Wholesale Suite family to enhance your wholesale customer's experience."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:20
+msgid ""
+"Easily add wholesale pricing to your products. Control product visibility. Satisfy your country's strictest tax requirements & control\n"
+"                            pricing display. Force wholesalers to use certain shipping & payment gateways. Enforce order minimums and individual product minimums. And 100's\n"
+"                            of other product and pricing related wholesale features."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:24
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:41
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:65
+msgid "Installed"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:34
+msgid "WooCommerce Wholesale Order Form"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:35
+msgid ""
+"Decrease frustration and increase order size with the most efficient one-page WooCommerce order form.\n"
+"                            Your wholesale customers will love it. No page loading means less back & forth, full ajax enabled add to cart buttons,\n"
+"                            responsive layout for on-the-go ordering and your whole product catalog available at your customer's fingertips."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:44
+msgid "Learn about Order Form"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:58
+msgid "WooCommerce Wholesale Lead Capture"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:59
+msgid ""
+"Take the pain out of manually recruiting & registering wholesale customers. Lead Capture will save you admin time and recruit wholesale customers\n"
+"                            for your WooCommerce store on autopilot. Full registration form builder, automated email onboarding email sequence, full automated or manual approvals\n"
+"                            system and much more."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-upgrade-content.php:68
+msgid "Learn about Lead Capture"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-payment-gateway-controls-custom-field.php:25
+msgid "Payment Gateways. <br/><small><i>You can add multiple payment gateways to a single role mapping</i></small>"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-class-options-mapping-controls-custom-field.php:21
+msgid "Wholesale Tax Class"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-class-options-mapping-controls-custom-field.php:23
+msgid "Choose tax class..."
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-class-options-mapping-controls-custom-field.php:54
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-class-options-mapping-controls-custom-field.php:62
+msgid "Tax Class"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-options-mapping-controls-custom-field.php:23
+msgid "Tax Exempted?"
+msgstr ""
+
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-options-mapping-controls-custom-field.php:50
+#: views/plugin-settings-custom-fields/view-wwpp-wholesale-role-tax-options-mapping-controls-custom-field.php:58
+msgid "Tax Exempted"
+msgstr ""
+
+#: views/settings/wc/shipping/view-wwpp-shipping-zone-wholesale-controls.php:9
+msgid "Wholesale Shipping Configuration"
+msgstr ""
+
+#: views/settings/wc/shipping/view-wwpp-shipping-zone-wholesale-controls.php:24
+#: views/settings/wc/shipping/view-wwpp-shipping-zone-wholesale-controls.php:29
+msgid "Wholesale Only"
+msgstr ""
+
+#: views/settings/wc/shipping/view-wwpp-shipping-zone-wholesale-controls.php:31
+msgid "Make this shipping zone only available to wholesale customers"
+msgstr ""
+
+#: views/settings/wc/shipping/view-wwpp-shipping-zone-wholesale-controls.php:49
+#: views/settings/wc/shipping/view-wwpp-shipping-zone-wholesale-controls.php:54
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:12
+msgid "Wholesale Roles"
+msgstr ""
+
+#: views/settings/wc/shipping/view-wwpp-shipping-zone-wholesale-controls.php:56
+msgid "Choose wholesale role/s..."
+msgstr ""
+
+#: views/settings/wc/shipping/view-wwpp-shipping-zone-wholesale-controls.php:69
+msgid "The wholesale roles that this shipping zone is applicable to"
+msgstr ""
+
+#: views/settings/wc/shipping/view-wwpp-shipping-zone-wholesale-controls.php:79
+msgid "Save changes"
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:28
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:100
+msgid "Name"
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:31
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:103
+msgid "Key"
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:35
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:107
+msgid "Wholesale Purchases Only"
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:38
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:110
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:164
+msgid "Description"
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:122
+msgid "Note:"
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:123
+msgid "When deleting a wholesale role, all users attached with that role will have the default wholesale role (Wholesale Customer) as their wholesale role."
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:126
+msgid "Wholesale Roles are just a copy of WooCommerce's Customer Role with an additional custom capability of 'have_wholesale_price'."
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:141
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:183
+msgid "Add New Wholesale Role"
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:147
+msgid "Role Name"
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:149
+msgid "Required. Recommended to be unique."
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:155
+msgid "Role Key"
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:158
+msgid "Required. Must be unique. Must only contain letters, numbers, hyphens, and underscores"
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:166
+msgid "Optional."
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:170
+msgid "Role Specific Settings"
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:175
+msgid "Prevent purchase if wholesale condition is not met"
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:177
+msgid "Prevents customers from checking out if they haven't met the minimum requirements to activate wholesale pricing (as per the Minimum Order Requirements setting)"
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:189
+msgid "Edit Wholesale Role"
+msgstr ""
+
+#: views/wholesale-roles/view-wwpp-wholesale-roles-admin-page.php:192
+msgid "Cancel Edit"
+msgstr ""
+
+#: views/wholesale-user-settings/wwpp-view-per-wholesale-user-settings.php:3
+msgid "Per User Wholesale Prices Settings"
+msgstr ""
+
+#: views/wholesale-user-settings/wwpp-view-per-wholesale-user-settings.php:80
+msgid "You must supply wholesale discount above for the mapping below to take effect."
+msgstr ""
+
+#: views/wws-license-settings/wwpp-view-wss-settings-page.php:19
+msgid "License Expired"
+msgstr ""
+
+#. Translators: $1 is expiration date. $2 is <br/> tag. $3 is opening <a> tag. $4 is closing </a> tag.
+#: views/wws-license-settings/wwpp-view-wss-settings-page.php:26
+msgid "The entered license was purchased over 12 months ago and expired on %1$s.%2$sTo continue receiving support & updates please %3$sclick here to renew your license%4$s."
+msgstr ""
+
+#: views/wws-license-settings/wwpp-view-wss-settings-page.php:39
+msgid "License Email"
+msgstr ""
+
+#: views/wws-license-settings/wwpp-view-wss-settings-page.php:48
+msgid "License Key"
+msgstr ""
+
+#: views/wws-license-settings/wwpp-view-wss-settings-page.php:58
+msgid "Save Changes"
+msgstr ""
+
+#: woocommerce-wholesale-prices-premium.bootstrap.php:129
+msgid "<a href=\"%1$s\">Click here to update WooCommerce Wholesale Prices Plugin &rarr;</a>"
+msgstr ""
+
+#: woocommerce-wholesale-prices-premium.bootstrap.php:132
+msgid "<b>WooCommerce Wholesale Prices Premium</b><br/> Please ensure you have the latest version of <a href=\"%1$s\" target=\"_blank\">WooCommerce Wholesale Prices</a> plugin installed and activated along with the Premium extension."
+msgstr ""
+
+#: woocommerce-wholesale-prices-premium.bootstrap.php:180
+msgid "Click here to install from WordPress.org repo &rarr;"
+msgstr ""
+
+#: woocommerce-wholesale-prices-premium.bootstrap.php:182
+msgid "Activate this plugin"
+msgstr ""
+
+#: woocommerce-wholesale-prices-premium.bootstrap.php:182
+msgid "Click here to activate &rarr;"
+msgstr ""
+
+#: woocommerce-wholesale-prices-premium.bootstrap.php:188
+msgid "Please ensure you have the <a href=\"%1$s\" target=\"_blank\">WooCommerce Wholesale Prices</a> plugin installed and activated along with the Premium extension."
+msgstr ""

@@ -1,0 +1,77 @@
+// WP Admin Notice
+// Hides our activation notice
+#wpbody-content .notice{
+  display: none;
+}
+
+html.wp-toolbar{
+  padding-top: 0px;
+}
+
+#wpadminbar,
+#adminmenumain,
+#wpfooter{
+  display: none;
+}
+
+#wpcontent, #wpfooter{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+#wpbody-content{
+  padding-bottom: 0px;
+}
+
+#wpwrap{
+  background: #f6f7f7;
+}
+
+#wwof-setup-wizard{
+  height: 100vh;
+  background: #f6f7f7;
+  
+  .ant-steps.ant-steps-horizontal.ant-steps-label-horizontal{
+    padding: 20px;
+    background: #fff;
+  }
+  .steps-content{
+    border: 1px solid rgb(226, 228, 231);
+    margin-top: 20px;
+    padding: 40px;
+    background: #fff;
+  }
+  .steps-content,.steps-action{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  // Generated Forms Table
+  .generated-order-forms{
+    table{
+      thead tr th{
+        &:nth-child(2){
+          width: 240px;
+        }
+        &:nth-child(3){
+          width: 180px;
+        }
+      }
+    }
+  }
+  
+}
+
+.loading-spinner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wws-logo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,48 @@
+.post-type-shop_bogof_rule .wp-list-table .column-min_quantity,
+.post-type-shop_bogof_rule .wp-list-table .column-free_quantity,
+.post-type-shop_bogof_rule .wp-list-table .column-cart_limit {
+	width: 130px;
+}
+
+.post-type-shop_bogof_rule .wp-list-table .column-enabled {
+	width: 80px;
+}
+.post-type-shop_bogof_rule .wp-list-table .wc-bogof-rule-toggle-enabled {
+	padding-top: 1px;
+	display: block;
+	outline: 0;
+	box-shadow: none;
+}
+
+#woocommerce-bogo-rule-data ul.wc-tabs li.wc_bundles_options a::before {
+	content: '\e800';
+	font-family: FontAwesomePB;
+}
+
+.wc_bogof_error_tip {
+	color: #fff;
+	font-size: 0.9em;
+	max-width: 24em;
+	text-align: center;
+	border-radius: 3px;
+	padding: 0.618em 1em;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	line-height: 1.8em;
+	position: absolute;
+	white-space: normal;
+	background: #d82223;
+	margin: 1.5em 1px 0 -1em;
+	z-index: 9999999;
+}
+.wc_bogof_error_tip::after{
+	content: "";
+	display: block;
+	border: 8px solid #d82223;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-top-color: transparent;
+	position: absolute;
+	top: -3px;
+	left: 50%;
+	margin: -1em 0 0 -3px;
+}
